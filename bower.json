@@ -1,0 +1,18 @@
+{
+  "name": "cf-fonticon",
+  "homepage": "https://github.com/codefresh-io/cf-fonticon",
+  "authors": [
+    "Ben Meiri <ben@codefresh.io>"
+  ],
+  "description": "icon font for Codefresh.io",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
