@@ -5,7 +5,7 @@
     "Ben Meiri <ben@codefresh.io>"
   ],
   "description": "icon font for Codefresh.io",
-  "main": "styles.css",
+  "main": "",
   "moduleType": [],
   "license": "MIT",
   "ignore": [
