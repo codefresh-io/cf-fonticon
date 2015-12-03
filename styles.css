@@ -137,3 +137,6 @@
 .icon-codefresh-workflow:before {
   content: "H";
 }
+.icon-codefresh-builds:before {
+  content: "I";
+}
