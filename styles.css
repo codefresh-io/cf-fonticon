@@ -38,8 +38,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-codefresh-add-layer:before {
+.icon-codefresh-activity-log:before {
   content: "\61";
+}
+.icon-codefresh-add-layer:before {
+  content: "\62";
 }
 .icon-codefresh-code:before {
   content: "\63";
@@ -47,96 +50,96 @@
 .icon-codefresh-composition:before {
   content: "\64";
 }
-.icon-codefresh-copy-docker-pull:before {
+.icon-codefresh-lenght:before {
   content: "\65";
 }
-.icon-codefresh-created:before {
+.icon-codefresh-settings:before {
   content: "\66";
 }
-.icon-codefresh-date:before {
+.icon-codefresh-stages:before {
   content: "\67";
 }
-.icon-codefresh-download:before {
+.icon-codefresh-log:before {
   content: "\68";
 }
-.icon-codefresh-environments:before {
+.icon-codefresh-ok:before {
   content: "\69";
 }
-.icon-codefresh-example:before {
+.icon-codefresh-start:before {
   content: "\6a";
 }
-.icon-codefresh-failed:before {
+.icon-codefresh-pause:before {
   content: "\6b";
 }
-.icon-codefresh-images:before {
+.icon-codefresh-table:before {
   content: "\6c";
 }
-.icon-codefresh-lenght:before {
+.icon-codefresh-copy-docker-pull:before {
   content: "\6d";
 }
-.icon-codefresh-log:before {
+.icon-codefresh-projects:before {
   content: "\6e";
 }
-.icon-codefresh-stages:before {
+.icon-codefresh-terminate:before {
   content: "\6f";
 }
-.icon-codefresh-settings:before {
+.icon-codefresh-test-fail:before {
   content: "\70";
 }
-.icon-codefresh-service:before {
+.icon-codefresh-promote:before {
   content: "\71";
 }
-.icon-codefresh-search:before {
+.icon-codefresh-created:before {
   content: "\72";
 }
-.icon-codefresh-running:before {
+.icon-codefresh-date:before {
   content: "\73";
 }
-.icon-codefresh-run-settings:before {
+.icon-codefresh-pull-request:before {
   content: "\74";
 }
-.icon-codefresh-refresh:before {
+.icon-codefresh-test-ok:before {
   content: "\75";
 }
 .icon-codefresh-queue:before {
   content: "\76";
 }
-.icon-codefresh-pull-request:before {
+.icon-codefresh-user:before {
   content: "\77";
 }
-.icon-codefresh-promote:before {
+.icon-codefresh-docker-logo:before {
   content: "\78";
 }
-.icon-codefresh-projects:before {
+.icon-codefresh-download:before {
   content: "\79";
 }
-.icon-codefresh-pause:before {
+.icon-codefresh-refresh:before {
   content: "\7a";
 }
-.icon-codefresh-ok-1:before {
-  content: "\62";
+.icon-codefresh-workflow:before {
+  content: "\41";
 }
-.icon-codefresh-start:before {
+.icon-codefresh-run-settings:before {
   content: "\42";
 }
-.icon-codefresh-table:before {
+.icon-codefresh-environments:before {
   content: "\43";
 }
-.icon-codefresh-terminate:before {
+.icon-codefresh-example:before {
   content: "\44";
 }
-.icon-codefresh-test-fail:before {
+.icon-codefresh-running:before {
   content: "\45";
 }
-.icon-codefresh-test-ok:before {
+.icon-codefresh-failed:before {
   content: "\46";
 }
-.icon-codefresh-user:before {
+.icon-codefresh-search:before {
   content: "\47";
 }
-.icon-codefresh-workflow:before {
+.icon-codefresh-images:before {
   content: "\48";
 }
-.icon-codefresh-activity-log:before {
-  content: "\41";
+.icon-codefresh-service:before {
+  content: "\49";
 }
