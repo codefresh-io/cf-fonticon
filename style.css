@@ -1,15 +1,15 @@
 @font-face {
   font-family: 'codefresh';
-  src:  url('fonts/codefresh.eot?undsty');
-  src:  url('fonts/codefresh.eot?undsty#iefix') format('embedded-opentype'),
-    url('fonts/codefresh.ttf?undsty') format('truetype'),
-    url('fonts/codefresh.woff?undsty') format('woff'),
-    url('fonts/codefresh.svg?undsty#codefresh') format('svg');
+  src:  url('fonts/codefresh.eot?o3slsi');
+  src:  url('fonts/codefresh.eot?o3slsi#iefix') format('embedded-opentype'),
+    url('fonts/codefresh.ttf?o3slsi') format('truetype'),
+    url('fonts/codefresh.woff?o3slsi') format('woff'),
+    url('fonts/codefresh.svg?o3slsi#codefresh') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-[class^="codefresh-"], [class*=" codefresh-"] {
+[class^="icon-codefresh-"], [class*=" icon-codefresh-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'codefresh' !important;
   speak: none;
@@ -24,199 +24,199 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.codefresh-arrow_2:before {
+.icon-codefresh-arrow_2:before {
   content: "\52";
 }
-.codefresh-arrow_3:before {
+.icon-codefresh-arrow_3:before {
   content: "\54";
 }
-.codefresh-arrow_4:before {
+.icon-codefresh-arrow_4:before {
   content: "\55";
 }
-.codefresh-arrow_5:before {
+.icon-codefresh-arrow_5:before {
   content: "\53";
 }
-.codefresh-builds-2:before {
+.icon-codefresh-builds-2:before {
   content: "\57";
 }
-.codefresh-chebron-r:before {
+.icon-codefresh-chebron-r:before {
   content: "\e903";
 }
-.codefresh-compositions-2:before {
+.icon-codefresh-compositions-2:before {
   content: "\58";
 }
-.codefresh-enviroments-2:before {
+.icon-codefresh-enviroments-2:before {
   content: "\59";
 }
-.codefresh-images-2:before {
+.icon-codefresh-images-2:before {
   content: "\5a";
 }
-.codefresh-launch-2:before {
+.icon-codefresh-launch-2:before {
   content: "\e907";
 }
-.codefresh-logs-2:before {
+.icon-codefresh-logs-2:before {
   content: "\e908";
 }
-.codefresh-pending:before {
+.icon-codefresh-pending:before {
   content: "\e909";
 }
-.codefresh-pipeline-2:before {
+.icon-codefresh-pipeline-2:before {
   content: "\e90a";
 }
-.codefresh-plus-2:before {
+.icon-codefresh-plus-2:before {
   content: "\e90b";
 }
-.codefresh-promote-2:before {
+.icon-codefresh-promote-2:before {
   content: "\e90c";
 }
-.codefresh-rebuild:before {
+.icon-codefresh-rebuild:before {
   content: "\e90d";
 }
-.codefresh-scan:before {
+.icon-codefresh-scan:before {
   content: "\e90e";
 }
-.codefresh-search-2:before {
+.icon-codefresh-search-2:before {
   content: "\e90f";
 }
-.codefresh-services-2:before {
+.icon-codefresh-services-2:before {
   content: "\e910";
 }
-.codefresh-success-2:before {
+.icon-codefresh-success-2:before {
   content: "\e911";
 }
-.codefresh-fail-2:before {
+.icon-codefresh-fail-2:before {
   content: "\e912";
 }
-.codefresh-tag:before {
+.icon-codefresh-tag:before {
   content: "\e913";
 }
-.codefresh-account-managment:before {
+.icon-codefresh-account-managment:before {
   content: "\61";
 }
-.codefresh-activity-log:before {
+.icon-codefresh-activity-log:before {
   content: "\62";
 }
-.codefresh-add-layer:before {
+.icon-codefresh-add-layer:before {
   content: "\63";
 }
-.codefresh-code:before {
+.icon-codefresh-code:before {
   content: "\64";
 }
-.codefresh-composition:before {
+.icon-codefresh-composition:before {
   content: "\65";
 }
-.codefresh-computer:before {
+.icon-codefresh-computer:before {
   content: "\66";
 }
-.codefresh-copy-docker-pull:before {
+.icon-codefresh-copy-docker-pull:before {
   content: "\67";
 }
-.codefresh-created:before {
+.icon-codefresh-created:before {
   content: "\68";
 }
-.codefresh-date:before {
+.icon-codefresh-date:before {
   content: "\69";
 }
-.codefresh-docker-logo:before {
+.icon-codefresh-docker-logo:before {
   content: "\6a";
 }
-.codefresh-download:before {
+.icon-codefresh-download:before {
   content: "\6b";
 }
-.codefresh-edit-pencil:before {
+.icon-codefresh-edit-pencil:before {
   content: "\6c";
 }
-.codefresh-environments:before {
+.icon-codefresh-environments:before {
   content: "\6d";
 }
-.codefresh-example:before {
+.icon-codefresh-example:before {
   content: "\6e";
 }
-.codefresh-failed:before {
+.icon-codefresh-failed:before {
   content: "\6f";
 }
-.codefresh-github:before {
+.icon-codefresh-github:before {
   content: "\70";
 }
-.codefresh-images:before {
+.icon-codefresh-images:before {
   content: "\71";
 }
-.codefresh-lenght:before {
+.icon-codefresh-lenght:before {
   content: "\72";
 }
-.codefresh-lock-close:before {
+.icon-codefresh-lock-close:before {
   content: "\73";
 }
-.codefresh-lock-open:before {
+.icon-codefresh-lock-open:before {
   content: "\74";
 }
-.codefresh-log:before {
+.icon-codefresh-log:before {
   content: "\75";
 }
-.codefresh-ok:before {
+.icon-codefresh-ok:before {
   content: "\76";
 }
-.codefresh-pause:before {
+.icon-codefresh-pause:before {
   content: "\77";
 }
-.codefresh-projects:before {
+.icon-codefresh-projects:before {
   content: "\78";
 }
-.codefresh-promote:before {
+.icon-codefresh-promote:before {
   content: "\79";
 }
-.codefresh-pull-request:before {
+.icon-codefresh-pull-request:before {
   content: "\7a";
 }
-.codefresh-queue:before {
+.icon-codefresh-queue:before {
   content: "\41";
 }
-.codefresh-refresh:before {
+.icon-codefresh-refresh:before {
   content: "\42";
 }
-.codefresh-run-settings:before {
+.icon-codefresh-run-settings:before {
   content: "\43";
 }
-.codefresh-running:before {
+.icon-codefresh-running:before {
   content: "\44";
 }
-.codefresh-search:before {
+.icon-codefresh-search:before {
   content: "\45";
 }
-.codefresh-service:before {
+.icon-codefresh-service:before {
   content: "\46";
 }
-.codefresh-settings:before {
+.icon-codefresh-settings:before {
   content: "\47";
 }
-.codefresh-stages:before {
+.icon-codefresh-stages:before {
   content: "\48";
 }
-.codefresh-start:before {
+.icon-codefresh-start:before {
   content: "\49";
 }
-.codefresh-table:before {
+.icon-codefresh-table:before {
   content: "\4a";
 }
-.codefresh-terminate:before {
+.icon-codefresh-terminate:before {
   content: "\4b";
 }
-.codefresh-test-fail:before {
+.icon-codefresh-test-fail:before {
   content: "\4c";
 }
-.codefresh-test-ok:before {
+.icon-codefresh-test-ok:before {
   content: "\4d";
 }
-.codefresh-trash:before {
+.icon-codefresh-trash:before {
   content: "\4e";
 }
-.codefresh-upload-code:before {
+.icon-codefresh-upload-code:before {
   content: "\4f";
 }
-.codefresh-user:before {
+.icon-codefresh-user:before {
   content: "\50";
 }
-.codefresh-workflow:before {
+.icon-codefresh-workflow:before {
   content: "\51";
 }
 

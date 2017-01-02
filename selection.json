@@ -2057,7 +2057,7 @@
     "showQuickUse2": true,
     "showSVGs": true,
     "fontPref": {
-      "prefix": "codefresh-",
+      "prefix": "icon-codefresh-",
       "metadata": {
         "fontFamily": "codefresh",
         "majorVersion": 1,
