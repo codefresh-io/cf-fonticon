@@ -1,0 +1,354 @@
+@import "variables";
+
+@font-face {
+  font-family: 'codefresh';
+  src:  url('#{$icomoon-font-path}/codefresh.eot?undsty');
+  src:  url('#{$icomoon-font-path}/codefresh.eot?undsty#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/codefresh.ttf?undsty') format('truetype'),
+    url('#{$icomoon-font-path}/codefresh.woff?undsty') format('woff'),
+    url('#{$icomoon-font-path}/codefresh.svg?undsty#codefresh') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="codefresh-"], [class*=" codefresh-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'codefresh' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.codefresh-arrow_2 {
+  &:before {
+    content: $codefresh-arrow_2;
+  }
+}
+.codefresh-arrow_3 {
+  &:before {
+    content: $codefresh-arrow_3;
+  }
+}
+.codefresh-arrow_4 {
+  &:before {
+    content: $codefresh-arrow_4;
+  }
+}
+.codefresh-arrow_5 {
+  &:before {
+    content: $codefresh-arrow_5;
+  }
+}
+.codefresh-builds-2 {
+  &:before {
+    content: $codefresh-builds-2;
+  }
+}
+.codefresh-chebron-r {
+  &:before {
+    content: $codefresh-chebron-r;
+  }
+}
+.codefresh-compositions-2 {
+  &:before {
+    content: $codefresh-compositions-2;
+  }
+}
+.codefresh-enviroments-2 {
+  &:before {
+    content: $codefresh-enviroments-2;
+  }
+}
+.codefresh-images-2 {
+  &:before {
+    content: $codefresh-images-2;
+  }
+}
+.codefresh-launch-2 {
+  &:before {
+    content: $codefresh-launch-2;
+  }
+}
+.codefresh-logs-2 {
+  &:before {
+    content: $codefresh-logs-2;
+  }
+}
+.codefresh-pending {
+  &:before {
+    content: $codefresh-pending;
+  }
+}
+.codefresh-pipeline-2 {
+  &:before {
+    content: $codefresh-pipeline-2;
+  }
+}
+.codefresh-plus-2 {
+  &:before {
+    content: $codefresh-plus-2;
+  }
+}
+.codefresh-promote-2 {
+  &:before {
+    content: $codefresh-promote-2;
+  }
+}
+.codefresh-rebuild {
+  &:before {
+    content: $codefresh-rebuild;
+  }
+}
+.codefresh-scan {
+  &:before {
+    content: $codefresh-scan;
+  }
+}
+.codefresh-search-2 {
+  &:before {
+    content: $codefresh-search-2;
+  }
+}
+.codefresh-services-2 {
+  &:before {
+    content: $codefresh-services-2;
+  }
+}
+.codefresh-success-2 {
+  &:before {
+    content: $codefresh-success-2;
+  }
+}
+.codefresh-fail-2 {
+  &:before {
+    content: $codefresh-fail-2;
+  }
+}
+.codefresh-tag {
+  &:before {
+    content: $codefresh-tag;
+  }
+}
+.codefresh-account-managment {
+  &:before {
+    content: $codefresh-account-managment;
+  }
+}
+.codefresh-activity-log {
+  &:before {
+    content: $codefresh-activity-log;
+  }
+}
+.codefresh-add-layer {
+  &:before {
+    content: $codefresh-add-layer;
+  }
+}
+.codefresh-code {
+  &:before {
+    content: $codefresh-code;
+  }
+}
+.codefresh-composition {
+  &:before {
+    content: $codefresh-composition;
+  }
+}
+.codefresh-computer {
+  &:before {
+    content: $codefresh-computer;
+  }
+}
+.codefresh-copy-docker-pull {
+  &:before {
+    content: $codefresh-copy-docker-pull;
+  }
+}
+.codefresh-created {
+  &:before {
+    content: $codefresh-created;
+  }
+}
+.codefresh-date {
+  &:before {
+    content: $codefresh-date;
+  }
+}
+.codefresh-docker-logo {
+  &:before {
+    content: $codefresh-docker-logo;
+  }
+}
+.codefresh-download {
+  &:before {
+    content: $codefresh-download;
+  }
+}
+.codefresh-edit-pencil {
+  &:before {
+    content: $codefresh-edit-pencil;
+  }
+}
+.codefresh-environments {
+  &:before {
+    content: $codefresh-environments;
+  }
+}
+.codefresh-example {
+  &:before {
+    content: $codefresh-example;
+  }
+}
+.codefresh-failed {
+  &:before {
+    content: $codefresh-failed;
+  }
+}
+.codefresh-github {
+  &:before {
+    content: $codefresh-github;
+  }
+}
+.codefresh-images {
+  &:before {
+    content: $codefresh-images;
+  }
+}
+.codefresh-lenght {
+  &:before {
+    content: $codefresh-lenght;
+  }
+}
+.codefresh-lock-close {
+  &:before {
+    content: $codefresh-lock-close;
+  }
+}
+.codefresh-lock-open {
+  &:before {
+    content: $codefresh-lock-open;
+  }
+}
+.codefresh-log {
+  &:before {
+    content: $codefresh-log;
+  }
+}
+.codefresh-ok {
+  &:before {
+    content: $codefresh-ok;
+  }
+}
+.codefresh-pause {
+  &:before {
+    content: $codefresh-pause;
+  }
+}
+.codefresh-projects {
+  &:before {
+    content: $codefresh-projects;
+  }
+}
+.codefresh-promote {
+  &:before {
+    content: $codefresh-promote;
+  }
+}
+.codefresh-pull-request {
+  &:before {
+    content: $codefresh-pull-request;
+  }
+}
+.codefresh-queue {
+  &:before {
+    content: $codefresh-queue;
+  }
+}
+.codefresh-refresh {
+  &:before {
+    content: $codefresh-refresh;
+  }
+}
+.codefresh-run-settings {
+  &:before {
+    content: $codefresh-run-settings;
+  }
+}
+.codefresh-running {
+  &:before {
+    content: $codefresh-running;
+  }
+}
+.codefresh-search {
+  &:before {
+    content: $codefresh-search;
+  }
+}
+.codefresh-service {
+  &:before {
+    content: $codefresh-service;
+  }
+}
+.codefresh-settings {
+  &:before {
+    content: $codefresh-settings;
+  }
+}
+.codefresh-stages {
+  &:before {
+    content: $codefresh-stages;
+  }
+}
+.codefresh-start {
+  &:before {
+    content: $codefresh-start;
+  }
+}
+.codefresh-table {
+  &:before {
+    content: $codefresh-table;
+  }
+}
+.codefresh-terminate {
+  &:before {
+    content: $codefresh-terminate;
+  }
+}
+.codefresh-test-fail {
+  &:before {
+    content: $codefresh-test-fail;
+  }
+}
+.codefresh-test-ok {
+  &:before {
+    content: $codefresh-test-ok;
+  }
+}
+.codefresh-trash {
+  &:before {
+    content: $codefresh-trash;
+  }
+}
+.codefresh-upload-code {
+  &:before {
+    content: $codefresh-upload-code;
+  }
+}
+.codefresh-user {
+  &:before {
+    content: $codefresh-user;
+  }
+}
+.codefresh-workflow {
+  &:before {
+    content: $codefresh-workflow;
+  }
+}
+
