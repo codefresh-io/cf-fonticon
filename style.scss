@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'codefresh';
-  src:  url('#{$icomoon-font-path}/codefresh.eot?o3slsi');
-  src:  url('#{$icomoon-font-path}/codefresh.eot?o3slsi#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/codefresh.ttf?o3slsi') format('truetype'),
-    url('#{$icomoon-font-path}/codefresh.woff?o3slsi') format('woff'),
-    url('#{$icomoon-font-path}/codefresh.svg?o3slsi#codefresh') format('svg');
+  src:  url('#{$icomoon-font-path}/codefresh.eot?sgiz0f');
+  src:  url('#{$icomoon-font-path}/codefresh.eot?sgiz0f#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/codefresh.ttf?sgiz0f') format('truetype'),
+    url('#{$icomoon-font-path}/codefresh.woff?sgiz0f') format('woff'),
+    url('#{$icomoon-font-path}/codefresh.svg?sgiz0f#codefresh') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,6 +26,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-codefresh-send-email {
+  &:before {
+    content: $icon-codefresh-send-email;
+  }
+}
 .icon-codefresh-arrow_2 {
   &:before {
     content: $icon-codefresh-arrow_2;
