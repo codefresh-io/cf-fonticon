@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'codefresh';
-  src:  url('fonts/codefresh.eot?sgiz0f');
-  src:  url('fonts/codefresh.eot?sgiz0f#iefix') format('embedded-opentype'),
-    url('fonts/codefresh.ttf?sgiz0f') format('truetype'),
-    url('fonts/codefresh.woff?sgiz0f') format('woff'),
-    url('fonts/codefresh.svg?sgiz0f#codefresh') format('svg');
+  src:  url('fonts/codefresh.eot?u8rbne');
+  src:  url('fonts/codefresh.eot?u8rbne#iefix') format('embedded-opentype'),
+    url('fonts/codefresh.ttf?u8rbne') format('truetype'),
+    url('fonts/codefresh.woff?u8rbne') format('woff'),
+    url('fonts/codefresh.svg?u8rbne#codefresh') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,8 +24,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-codefresh-send-email:before {
-  content: "\e900";
+.icon-codefresh-account-managment:before {
+  content: "\61";
+}
+.icon-codefresh-activity-log:before {
+  content: "\62";
+}
+.icon-codefresh-add-layer:before {
+  content: "\63";
 }
 .icon-codefresh-arrow_2:before {
   content: "\52";
@@ -45,68 +51,14 @@
 .icon-codefresh-chebron-r:before {
   content: "\e903";
 }
-.icon-codefresh-compositions-2:before {
-  content: "\58";
-}
-.icon-codefresh-enviroments-2:before {
-  content: "\59";
-}
-.icon-codefresh-images-2:before {
-  content: "\5a";
-}
-.icon-codefresh-launch-2:before {
-  content: "\e907";
-}
-.icon-codefresh-logs-2:before {
-  content: "\e908";
-}
-.icon-codefresh-pending:before {
-  content: "\e909";
-}
-.icon-codefresh-pipeline-2:before {
-  content: "\e90a";
-}
-.icon-codefresh-plus-2:before {
-  content: "\e90b";
-}
-.icon-codefresh-promote-2:before {
-  content: "\e90c";
-}
-.icon-codefresh-rebuild:before {
-  content: "\e90d";
-}
-.icon-codefresh-scan:before {
-  content: "\e90e";
-}
-.icon-codefresh-search-2:before {
-  content: "\e90f";
-}
-.icon-codefresh-services-2:before {
-  content: "\e910";
-}
-.icon-codefresh-success-2:before {
-  content: "\e911";
-}
-.icon-codefresh-fail-2:before {
-  content: "\e912";
-}
-.icon-codefresh-tag:before {
-  content: "\e913";
-}
-.icon-codefresh-account-managment:before {
-  content: "\61";
-}
-.icon-codefresh-activity-log:before {
-  content: "\62";
-}
-.icon-codefresh-add-layer:before {
-  content: "\63";
-}
 .icon-codefresh-code:before {
   content: "\64";
 }
 .icon-codefresh-composition:before {
   content: "\65";
+}
+.icon-codefresh-compositions-2:before {
+  content: "\58";
 }
 .icon-codefresh-computer:before {
   content: "\66";
@@ -129,11 +81,17 @@
 .icon-codefresh-edit-pencil:before {
   content: "\6c";
 }
+.icon-codefresh-enviroments-2:before {
+  content: "\59";
+}
 .icon-codefresh-environments:before {
   content: "\6d";
 }
 .icon-codefresh-example:before {
   content: "\6e";
+}
+.icon-codefresh-fail-2:before {
+  content: "\e912";
 }
 .icon-codefresh-failed:before {
   content: "\6f";
@@ -143,6 +101,12 @@
 }
 .icon-codefresh-images:before {
   content: "\71";
+}
+.icon-codefresh-images-2:before {
+  content: "\5a";
+}
+.icon-codefresh-launch-2:before {
+  content: "\e907";
 }
 .icon-codefresh-lenght:before {
   content: "\72";
@@ -156,11 +120,23 @@
 .icon-codefresh-log:before {
   content: "\75";
 }
+.icon-codefresh-logs-2:before {
+  content: "\e908";
+}
 .icon-codefresh-ok:before {
   content: "\76";
 }
 .icon-codefresh-pause:before {
   content: "\77";
+}
+.icon-codefresh-pending:before {
+  content: "\e909";
+}
+.icon-codefresh-pipeline-2:before {
+  content: "\e90a";
+}
+.icon-codefresh-plus-2:before {
+  content: "\e90b";
 }
 .icon-codefresh-projects:before {
   content: "\78";
@@ -168,11 +144,17 @@
 .icon-codefresh-promote:before {
   content: "\79";
 }
+.icon-codefresh-promote-2:before {
+  content: "\e90c";
+}
 .icon-codefresh-pull-request:before {
   content: "\7a";
 }
 .icon-codefresh-queue:before {
   content: "\41";
+}
+.icon-codefresh-rebuild:before {
+  content: "\e90d";
 }
 .icon-codefresh-refresh:before {
   content: "\42";
@@ -183,11 +165,23 @@
 .icon-codefresh-running:before {
   content: "\44";
 }
+.icon-codefresh-scan:before {
+  content: "\e90e";
+}
 .icon-codefresh-search:before {
   content: "\45";
 }
+.icon-codefresh-search-2:before {
+  content: "\e90f";
+}
+.icon-codefresh-send-email:before {
+  content: "\e900";
+}
 .icon-codefresh-service:before {
   content: "\46";
+}
+.icon-codefresh-services-2:before {
+  content: "\e910";
 }
 .icon-codefresh-settings:before {
   content: "\47";
@@ -198,8 +192,14 @@
 .icon-codefresh-start:before {
   content: "\49";
 }
+.icon-codefresh-success-2:before {
+  content: "\e911";
+}
 .icon-codefresh-table:before {
   content: "\4a";
+}
+.icon-codefresh-tag:before {
+  content: "\e913";
 }
 .icon-codefresh-terminate:before {
   content: "\4b";
