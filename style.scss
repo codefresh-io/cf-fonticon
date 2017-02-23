@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'codefresh';
-  src:  url('#{$icomoon-font-path}/codefresh.eot?u8rbne');
-  src:  url('#{$icomoon-font-path}/codefresh.eot?u8rbne#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/codefresh.ttf?u8rbne') format('truetype'),
-    url('#{$icomoon-font-path}/codefresh.woff?u8rbne') format('woff'),
-    url('#{$icomoon-font-path}/codefresh.svg?u8rbne#codefresh') format('svg');
+  src:  url('#{$icomoon-font-path}/codefresh.eot?ukupq4');
+  src:  url('#{$icomoon-font-path}/codefresh.eot?ukupq4#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/codefresh.ttf?ukupq4') format('truetype'),
+    url('#{$icomoon-font-path}/codefresh.woff?ukupq4') format('woff'),
+    url('#{$icomoon-font-path}/codefresh.svg?ukupq4#codefresh') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,6 +26,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-codefresh-icon-info {
+  &:before {
+    content: $icon-codefresh-icon-info;
+  }
+}
+.icon-codefresh-icon-warning {
+  &:before {
+    content: $icon-codefresh-icon-warning;
+  }
+}
 .icon-codefresh-account-managment {
   &:before {
     content: $icon-codefresh-account-managment;
