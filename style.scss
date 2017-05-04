@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'codefresh';
-  src:  url('#{$icomoon-font-path}/codefresh.eot?z5x3lu');
-  src:  url('#{$icomoon-font-path}/codefresh.eot?z5x3lu#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/codefresh.ttf?z5x3lu') format('truetype'),
-    url('#{$icomoon-font-path}/codefresh.woff?z5x3lu') format('woff'),
-    url('#{$icomoon-font-path}/codefresh.svg?z5x3lu#codefresh') format('svg');
+  src:  url('#{$icomoon-font-path}/codefresh.eot?l53u5z');
+  src:  url('#{$icomoon-font-path}/codefresh.eot?l53u5z#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/codefresh.ttf?l53u5z') format('truetype'),
+    url('#{$icomoon-font-path}/codefresh.woff?l53u5z') format('woff'),
+    url('#{$icomoon-font-path}/codefresh.svg?l53u5z#codefresh') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,6 +26,96 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-codefresh-docker-logo-white .path1 {
+  &:before {
+    content: $icon-codefresh-docker-logo-white-path1;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-codefresh-docker-logo-white .path2 {
+  &:before {
+    content: $icon-codefresh-docker-logo-white-path2;  
+    margin-left: -1.099609375em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.icon-codefresh-docker-logo-white .path3 {
+  &:before {
+    content: $icon-codefresh-docker-logo-white-path3;  
+    margin-left: -1.099609375em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.icon-codefresh-docker-logo-white .path4 {
+  &:before {
+    content: $icon-codefresh-docker-logo-white-path4;  
+    margin-left: -1.099609375em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.icon-codefresh-docker-logo-white .path5 {
+  &:before {
+    content: $icon-codefresh-docker-logo-white-path5;  
+    margin-left: -1.099609375em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.icon-codefresh-docker-logo-white .path6 {
+  &:before {
+    content: $icon-codefresh-docker-logo-white-path6;  
+    margin-left: -1.099609375em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.icon-codefresh-docker-logo-white .path7 {
+  &:before {
+    content: $icon-codefresh-docker-logo-white-path7;  
+    margin-left: -1.099609375em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.icon-codefresh-docker-logo-white .path8 {
+  &:before {
+    content: $icon-codefresh-docker-logo-white-path8;  
+    margin-left: -1.099609375em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.icon-codefresh-docker-logo-white .path9 {
+  &:before {
+    content: $icon-codefresh-docker-logo-white-path9;  
+    margin-left: -1.099609375em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.icon-codefresh-docker-logo-white .path10 {
+  &:before {
+    content: $icon-codefresh-docker-logo-white-path10;  
+    margin-left: -1.099609375em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.icon-codefresh-docker-logo-white .path11 {
+  &:before {
+    content: $icon-codefresh-docker-logo-white-path11;  
+    margin-left: -1.099609375em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.icon-codefresh-docker-logo-white .path12 {
+  &:before {
+    content: $icon-codefresh-docker-logo-white-path12;  
+    margin-left: -1.099609375em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-codefresh-docker-logo-white .path13 {
+  &:before {
+    content: $icon-codefresh-docker-logo-white-path13;  
+    margin-left: -1.099609375em;  
+    color: rgb(255, 255, 255);
+  }
+}
 .icon-codefresh-un-trash {
   &:before {
     content: $icon-codefresh-un-trash;
