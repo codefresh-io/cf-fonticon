@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'codefresh';
-  src:  url('fonts/codefresh.eot?l53u5z');
-  src:  url('fonts/codefresh.eot?l53u5z#iefix') format('embedded-opentype'),
-    url('fonts/codefresh.ttf?l53u5z') format('truetype'),
-    url('fonts/codefresh.woff?l53u5z') format('woff'),
-    url('fonts/codefresh.svg?l53u5z#codefresh') format('svg');
+  src:  url('fonts/codefresh.eot?r1ik19');
+  src:  url('fonts/codefresh.eot?r1ik19#iefix') format('embedded-opentype'),
+    url('fonts/codefresh.ttf?r1ik19') format('truetype'),
+    url('fonts/codefresh.woff?r1ik19') format('woff'),
+    url('fonts/codefresh.svg?r1ik19#codefresh') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-codefresh-logo:before {
+  content: "\e91f";
+}
 .icon-codefresh-docker-logo-white .path1:before {
   content: "\e905";
   color: rgb(0, 0, 0);
@@ -207,6 +210,7 @@
 }
 .icon-codefresh-pipeline-2:before {
   content: "\e90a";
+  color: #4e545d;
 }
 .icon-codefresh-plus-2:before {
   content: "\e90b";
@@ -219,6 +223,7 @@
 }
 .icon-codefresh-promote-2:before {
   content: "\e90c";
+  color: #4e545d;
 }
 .icon-codefresh-pull-request:before {
   content: "\7a";
@@ -295,4 +300,3 @@
 .icon-codefresh-workflow:before {
   content: "\51";
 }
-
