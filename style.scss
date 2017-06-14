@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'codefresh';
-  src:  url('#{$icomoon-font-path}/codefresh.eot?hmt7sb');
-  src:  url('#{$icomoon-font-path}/codefresh.eot?hmt7sb#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/codefresh.ttf?hmt7sb') format('truetype'),
-    url('#{$icomoon-font-path}/codefresh.woff?hmt7sb') format('woff'),
-    url('#{$icomoon-font-path}/codefresh.svg?hmt7sb#codefresh') format('svg');
+  src:  url('#{$icomoon-font-path}/codefresh.eot?i2ir6l');
+  src:  url('#{$icomoon-font-path}/codefresh.eot?i2ir6l#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/codefresh.ttf?i2ir6l') format('truetype'),
+    url('#{$icomoon-font-path}/codefresh.woff?i2ir6l') format('woff'),
+    url('#{$icomoon-font-path}/codefresh.svg?i2ir6l#codefresh') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,6 +26,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-codefresh-hamburger {
+  &:before {
+    content: $icon-codefresh-hamburger;
+  }
+}
 .icon-codefresh-ok-strong {
   &:before {
     content: $icon-codefresh-ok-strong;

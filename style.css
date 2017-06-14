@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'codefresh';
-  src:  url('fonts/codefresh.eot?hmt7sb');
-  src:  url('fonts/codefresh.eot?hmt7sb#iefix') format('embedded-opentype'),
-    url('fonts/codefresh.ttf?hmt7sb') format('truetype'),
-    url('fonts/codefresh.woff?hmt7sb') format('woff'),
-    url('fonts/codefresh.svg?hmt7sb#codefresh') format('svg');
+  src:  url('fonts/codefresh.eot?i2ir6l');
+  src:  url('fonts/codefresh.eot?i2ir6l#iefix') format('embedded-opentype'),
+    url('fonts/codefresh.ttf?i2ir6l') format('truetype'),
+    url('fonts/codefresh.woff?i2ir6l') format('woff'),
+    url('fonts/codefresh.svg?i2ir6l#codefresh') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-codefresh-hamburger:before {
+  content: "\e925";
+}
 .icon-codefresh-ok-strong:before {
   content: "\e922";
 }
@@ -225,7 +228,6 @@
 }
 .icon-codefresh-pipeline-2:before {
   content: "\e90a";
-  color: #4e545d;
 }
 .icon-codefresh-plus-2:before {
   content: "\e90b";
