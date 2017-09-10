@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'codefresh';
-  src:  url('#{$icomoon-font-path}/codefresh.eot?bjapkt');
-  src:  url('#{$icomoon-font-path}/codefresh.eot?bjapkt#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/codefresh.ttf?bjapkt') format('truetype'),
-    url('#{$icomoon-font-path}/codefresh.woff?bjapkt') format('woff'),
-    url('#{$icomoon-font-path}/codefresh.svg?bjapkt#codefresh') format('svg');
+  src:  url('#{$icomoon-font-path}/codefresh.eot?wei3ii');
+  src:  url('#{$icomoon-font-path}/codefresh.eot?wei3ii#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/codefresh.ttf?wei3ii') format('truetype'),
+    url('#{$icomoon-font-path}/codefresh.woff?wei3ii') format('woff'),
+    url('#{$icomoon-font-path}/codefresh.svg?wei3ii#codefresh') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,6 +26,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-codefresh-lightning {
+  &:before {
+    content: $icon-codefresh-lightning;
+  }
+}
 .icon-codefresh-email {
   &:before {
     content: $icon-codefresh-email;
@@ -206,19 +211,9 @@
     content: $icon-codefresh-add-layer;
   }
 }
-.icon-codefresh-arrow_2 {
+.icon-codefresh-arrow-right {
   &:before {
-    content: $icon-codefresh-arrow_2;
-  }
-}
-.icon-codefresh-arrow_3 {
-  &:before {
-    content: $icon-codefresh-arrow_3;
-  }
-}
-.icon-codefresh-arrow_4 {
-  &:before {
-    content: $icon-codefresh-arrow_4;
+    content: $icon-codefresh-arrow-right;
   }
 }
 .icon-codefresh-arrow_5 {

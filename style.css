@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'codefresh';
-  src:  url('fonts/codefresh.eot?bjapkt');
-  src:  url('fonts/codefresh.eot?bjapkt#iefix') format('embedded-opentype'),
-    url('fonts/codefresh.ttf?bjapkt') format('truetype'),
-    url('fonts/codefresh.woff?bjapkt') format('woff'),
-    url('fonts/codefresh.svg?bjapkt#codefresh') format('svg');
+  src:  url('fonts/codefresh.eot?wei3ii');
+  src:  url('fonts/codefresh.eot?wei3ii#iefix') format('embedded-opentype'),
+    url('fonts/codefresh.ttf?wei3ii') format('truetype'),
+    url('fonts/codefresh.woff?wei3ii') format('woff'),
+    url('fonts/codefresh.svg?wei3ii#codefresh') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-codefresh-lightning:before {
+  content: "\e92b";
+}
 .icon-codefresh-email:before {
   content: "\e928";
 }
@@ -142,14 +145,8 @@
 .icon-codefresh-add-layer:before {
   content: "\63";
 }
-.icon-codefresh-arrow_2:before {
+.icon-codefresh-arrow-right:before {
   content: "\52";
-}
-.icon-codefresh-arrow_3:before {
-  content: "\54";
-}
-.icon-codefresh-arrow_4:before {
-  content: "\55";
 }
 .icon-codefresh-arrow_5:before {
   content: "\53";
