@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'codefresh';
-  src:  url('#{$icomoon-font-path}/codefresh.eot?wei3ii');
-  src:  url('#{$icomoon-font-path}/codefresh.eot?wei3ii#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/codefresh.ttf?wei3ii') format('truetype'),
-    url('#{$icomoon-font-path}/codefresh.woff?wei3ii') format('woff'),
-    url('#{$icomoon-font-path}/codefresh.svg?wei3ii#codefresh') format('svg');
+  src:  url('#{$icomoon-font-path}/codefresh.eot?94vrzx');
+  src:  url('#{$icomoon-font-path}/codefresh.eot?94vrzx#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/codefresh.ttf?94vrzx') format('truetype'),
+    url('#{$icomoon-font-path}/codefresh.woff?94vrzx') format('woff'),
+    url('#{$icomoon-font-path}/codefresh.svg?94vrzx#codefresh') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,6 +26,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-codefresh-docker-swarm {
+  &:before {
+    content: $icon-codefresh-docker-swarm;
+  }
+}
 .icon-codefresh-lightning {
   &:before {
     content: $icon-codefresh-lightning;
