@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'codefresh';
-  src:  url('fonts/codefresh.eot?aw4027');
-  src:  url('fonts/codefresh.eot?aw4027#iefix') format('embedded-opentype'),
-    url('fonts/codefresh.ttf?aw4027') format('truetype'),
-    url('fonts/codefresh.woff?aw4027') format('woff'),
-    url('fonts/codefresh.svg?aw4027#codefresh') format('svg');
+  src:  url('fonts/codefresh.eot?60usst');
+  src:  url('fonts/codefresh.eot?60usst#iefix') format('embedded-opentype'),
+    url('fonts/codefresh.ttf?60usst') format('truetype'),
+    url('fonts/codefresh.woff?60usst') format('woff'),
+    url('fonts/codefresh.svg?60usst#codefresh') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,46 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-codefresh-user-settings:before {
+  content: "\e933";
+  color: #fff;
+}
+.icon-codefresh-account-settings:before {
+  content: "\e934";
+  color: #a8eee7;
+}
+.icon-codefresh-builds:before {
+  content: "\e935";
+  color: #a8eee7;
+}
+.icon-codefresh-docker:before {
+  content: "\e936";
+  color: #a8eee7;
+}
+.icon-codefresh-helm-charts:before {
+  content: "\e937";
+  color: #a8eee7;
+}
+.icon-codefresh-helm:before {
+  content: "\e938";
+  color: #a8eee7;
+}
+.icon-codefresh-images-new:before {
+  content: "\e939";
+  color: #a8eee7;
+}
+.icon-codefresh-k8s:before {
+  content: "\e93a";
+  color: #a8eee7;
+}
+.icon-codefresh-pipelines:before {
+  content: "\e93b";
+  color: #a8eee7;
+}
+.icon-codefresh-repositories:before {
+  content: "\e93c";
+  color: #a8eee7;
+}
 .icon-codefresh-tutorials:before {
   content: "\e932";
   color: #4c4c4c;
