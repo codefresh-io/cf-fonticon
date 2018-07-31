@@ -11,7 +11,7 @@
   font-style: normal;
 }
 
-i {
+[class^="icon-codefresh-"], [class*=" icon-codefresh-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: '#{$icomoon-font-family}' !important;
   speak: none;
