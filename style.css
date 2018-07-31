@@ -9,7 +9,7 @@
   font-style: normal;
 }
 
-[class^="icon-codefresh-"], [class*=" icon-codefresh-"] {
+i {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'codefresh' !important;
   speak: none;
