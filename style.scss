@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?g5whjk');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?g5whjk#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?g5whjk') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?g5whjk') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?g5whjk##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?ohpwc4');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?ohpwc4#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?ohpwc4') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?ohpwc4') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?ohpwc4##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -39,97 +39,81 @@
 .icon-codefresh-user-settings {
   &:before {
     content: $icon-codefresh-user-settings;
-    color: #fff;
   }
 }
 .icon-codefresh-account-settings {
   &:before {
     content: $icon-codefresh-account-settings;
-    color: #a8eee7;
   }
 }
 .icon-codefresh-builds {
   &:before {
     content: $icon-codefresh-builds;
-    color: #a8eee7;
   }
 }
 .icon-codefresh-docker {
   &:before {
     content: $icon-codefresh-docker;
-    color: #a8eee7;
   }
 }
 .icon-codefresh-helm-charts {
   &:before {
     content: $icon-codefresh-helm-charts;
-    color: #a8eee7;
   }
 }
 .icon-codefresh-helm {
   &:before {
     content: $icon-codefresh-helm;
-    color: #a8eee7;
   }
 }
-.icon-codefresh-images-new {
+.icon-codefresh-images-cube {
   &:before {
-    content: $icon-codefresh-images-new;
-    color: #a8eee7;
+    content: $icon-codefresh-images-cube;
   }
 }
 .icon-codefresh-k8s {
   &:before {
     content: $icon-codefresh-k8s;
-    color: #a8eee7;
   }
 }
 .icon-codefresh-pipelines {
   &:before {
     content: $icon-codefresh-pipelines;
-    color: #a8eee7;
   }
 }
 .icon-codefresh-repositories {
   &:before {
     content: $icon-codefresh-repositories;
-    color: #a8eee7;
   }
 }
 .icon-codefresh-tutorials {
   &:before {
     content: $icon-codefresh-tutorials;
-    color: #4c4c4c;
   }
 }
 .icon-codefresh-icon-status {
   &:before {
     content: $icon-codefresh-icon-status;
-    color: #4c4c4c;
   }
 }
 .icon-codefresh-docs {
   &:before {
     content: $icon-codefresh-docs;
-    color: #4c4c4c;
   }
 }
 .icon-codefresh-examples {
   &:before {
     content: $icon-codefresh-examples;
-    color: #4c4c4c;
   }
 }
 .icon-codefresh-star {
   &:before {
     content: $icon-codefresh-star;
-    color: #4c4c4c;
   }
 }
 .icon-codefresh-troubleshooting {
   &:before {
     content: $icon-codefresh-troubleshooting;
-    color: #4c4c4c;
   }
 }
 .icon-codefresh-docker-swarm {
