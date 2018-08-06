@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'codefresh';
-  src:  url('fonts/codefresh.eot?2al9c');
-  src:  url('fonts/codefresh.eot?2al9c#iefix') format('embedded-opentype'),
-    url('fonts/codefresh.ttf?2al9c') format('truetype'),
-    url('fonts/codefresh.woff?2al9c') format('woff'),
-    url('fonts/codefresh.svg?2al9c#codefresh') format('svg');
+  src:  url('fonts/codefresh.eot?pvw424');
+  src:  url('fonts/codefresh.eot?pvw424#iefix') format('embedded-opentype'),
+    url('fonts/codefresh.ttf?pvw424') format('truetype'),
+    url('fonts/codefresh.woff?pvw424') format('woff'),
+    url('fonts/codefresh.svg?pvw424#codefresh') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,41 +24,50 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-codefresh-billing:before {
+  content: "\e940";
+}
+.icon-codefresh-integrations:before {
+  content: "\e941";
+}
 .icon-codefresh-larr:before {
   content: "\e93d";
 }
 .icon-codefresh-rarr:before {
   content: "\e93e";
 }
-.icon-codefresh-user-settings:before {
+.icon-codefresh-user-settings2:before {
   content: "\e933";
 }
-.icon-codefresh-account-settings:before {
+.icon-codefresh-user-settings:before {
   content: "\e934";
 }
-.icon-codefresh-builds:before {
+.icon-codefresh-account-settings:before {
   content: "\e935";
 }
-.icon-codefresh-docker:before {
+.icon-codefresh-builds:before {
   content: "\e936";
 }
-.icon-codefresh-helm-charts:before {
+.icon-codefresh-docker:before {
   content: "\e937";
 }
-.icon-codefresh-helm:before {
+.icon-codefresh-helm-charts:before {
   content: "\e938";
 }
-.icon-codefresh-images-cube:before {
+.icon-codefresh-helm:before {
   content: "\e939";
 }
-.icon-codefresh-k8s:before {
+.icon-codefresh-images-cube:before {
   content: "\e93a";
 }
-.icon-codefresh-pipelines:before {
+.icon-codefresh-k8s:before {
   content: "\e93b";
 }
-.icon-codefresh-repositories:before {
+.icon-codefresh-pipelines:before {
   content: "\e93c";
+}
+.icon-codefresh-repositories:before {
+  content: "\e93f";
 }
 .icon-codefresh-tutorials:before {
   content: "\e932";
