@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'codefresh';
-  src:  url('fonts/codefresh.eot?jxsc61');
-  src:  url('fonts/codefresh.eot?jxsc61#iefix') format('embedded-opentype'),
-    url('fonts/codefresh.ttf?jxsc61') format('truetype'),
-    url('fonts/codefresh.woff?jxsc61') format('woff'),
-    url('fonts/codefresh.svg?jxsc61#codefresh') format('svg');
+  src:  url('fonts/codefresh.eot?8q71cc');
+  src:  url('fonts/codefresh.eot?8q71cc#iefix') format('embedded-opentype'),
+    url('fonts/codefresh.ttf?8q71cc') format('truetype'),
+    url('fonts/codefresh.woff?8q71cc') format('woff'),
+    url('fonts/codefresh.svg?8q71cc#codefresh') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-codefresh-docker-swarm2:before {
+  content: "\e942";
+}
 .icon-codefresh-billing:before {
   content: "\e940";
 }
@@ -38,24 +41,6 @@
 }
 .icon-codefresh-user-settings2:before {
   content: "\e933";
-}
-.icon-codefresh-user-settings:before {
-  content: "\e934";
-}
-.icon-codefresh-account-settings:before {
-  content: "\e935";
-}
-.icon-codefresh-builds:before {
-  content: "\e936";
-}
-.icon-codefresh-docker:before {
-  content: "\e937";
-}
-.icon-codefresh-helm-charts:before {
-  content: "\e938";
-}
-.icon-codefresh-helm:before {
-  content: "\e939";
 }
 .icon-codefresh-images-cube:before {
   content: "\e93a";
@@ -92,21 +77,6 @@
 }
 .icon-codefresh-lightning:before {
   content: "\e92b";
-}
-.icon-codefresh-email:before {
-  content: "\e928";
-}
-.icon-codefresh-minus:before {
-  content: "\e929";
-}
-.icon-codefresh-plus:before {
-  content: "\e92a";
-}
-.icon-codefresh-kubernetes:before {
-  content: "\e926";
-}
-.icon-codefresh-dokcer-logs:before {
-  content: "\e927";
 }
 .icon-codefresh-hamburger:before {
   content: "\e925";
@@ -393,4 +363,37 @@
 }
 .icon-codefresh-workflow:before {
   content: "\51";
+}
+.icon-codefresh-user-settings:before {
+  content: "\e934";
+}
+.icon-codefresh-account-settings:before {
+  content: "\e935";
+}
+.icon-codefresh-builds:before {
+  content: "\e936";
+}
+.icon-codefresh-docker:before {
+  content: "\e937";
+}
+.icon-codefresh-helm-charts:before {
+  content: "\e938";
+}
+.icon-codefresh-helm:before {
+  content: "\e939";
+}
+.icon-codefresh-email:before {
+  content: "\e928";
+}
+.icon-codefresh-minus:before {
+  content: "\e929";
+}
+.icon-codefresh-plus:before {
+  content: "\e92a";
+}
+.icon-codefresh-kubernetes:before {
+  content: "\e926";
+}
+.icon-codefresh-dokcer-logs:before {
+  content: "\e927";
 }
