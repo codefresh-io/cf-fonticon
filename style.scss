@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?jxsc61');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?jxsc61#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?jxsc61') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?jxsc61') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?jxsc61##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?8q71cc');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?8q71cc#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?8q71cc') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?8q71cc') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?8q71cc##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,6 +26,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-codefresh-docker-swarm2 {
+  &:before {
+    content: $icon-codefresh-docker-swarm2; 
+  }
+}
 .icon-codefresh-billing {
   &:before {
     content: $icon-codefresh-billing; 
@@ -49,36 +54,6 @@
 .icon-codefresh-user-settings2 {
   &:before {
     content: $icon-codefresh-user-settings2; 
-  }
-}
-.icon-codefresh-user-settings {
-  &:before {
-    content: $icon-codefresh-user-settings; 
-  }
-}
-.icon-codefresh-account-settings {
-  &:before {
-    content: $icon-codefresh-account-settings; 
-  }
-}
-.icon-codefresh-builds {
-  &:before {
-    content: $icon-codefresh-builds; 
-  }
-}
-.icon-codefresh-docker {
-  &:before {
-    content: $icon-codefresh-docker; 
-  }
-}
-.icon-codefresh-helm-charts {
-  &:before {
-    content: $icon-codefresh-helm-charts; 
-  }
-}
-.icon-codefresh-helm {
-  &:before {
-    content: $icon-codefresh-helm; 
   }
 }
 .icon-codefresh-images-cube {
@@ -139,31 +114,6 @@
 .icon-codefresh-lightning {
   &:before {
     content: $icon-codefresh-lightning; 
-  }
-}
-.icon-codefresh-email {
-  &:before {
-    content: $icon-codefresh-email; 
-  }
-}
-.icon-codefresh-minus {
-  &:before {
-    content: $icon-codefresh-minus; 
-  }
-}
-.icon-codefresh-plus {
-  &:before {
-    content: $icon-codefresh-plus; 
-  }
-}
-.icon-codefresh-kubernetes {
-  &:before {
-    content: $icon-codefresh-kubernetes; 
-  }
-}
-.icon-codefresh-dokcer-logs {
-  &:before {
-    content: $icon-codefresh-dokcer-logs; 
   }
 }
 .icon-codefresh-hamburger {
@@ -624,6 +574,61 @@
 .icon-codefresh-workflow {
   &:before {
     content: $icon-codefresh-workflow; 
+  }
+}
+.icon-codefresh-user-settings {
+  &:before {
+    content: $icon-codefresh-user-settings; 
+  }
+}
+.icon-codefresh-account-settings {
+  &:before {
+    content: $icon-codefresh-account-settings; 
+  }
+}
+.icon-codefresh-builds {
+  &:before {
+    content: $icon-codefresh-builds; 
+  }
+}
+.icon-codefresh-docker {
+  &:before {
+    content: $icon-codefresh-docker; 
+  }
+}
+.icon-codefresh-helm-charts {
+  &:before {
+    content: $icon-codefresh-helm-charts; 
+  }
+}
+.icon-codefresh-helm {
+  &:before {
+    content: $icon-codefresh-helm; 
+  }
+}
+.icon-codefresh-email {
+  &:before {
+    content: $icon-codefresh-email; 
+  }
+}
+.icon-codefresh-minus {
+  &:before {
+    content: $icon-codefresh-minus; 
+  }
+}
+.icon-codefresh-plus {
+  &:before {
+    content: $icon-codefresh-plus; 
+  }
+}
+.icon-codefresh-kubernetes {
+  &:before {
+    content: $icon-codefresh-kubernetes; 
+  }
+}
+.icon-codefresh-dokcer-logs {
+  &:before {
+    content: $icon-codefresh-dokcer-logs; 
   }
 }
 
