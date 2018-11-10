@@ -1,0 +1,29 @@
+version: '1.0'
+steps:
+  icomoon:
+    image: r.cfcr.io/codefresh-inc/codefreshio/cficomoon:master
+    commands:
+      - git checkout master
+      - git checkout -B $ICON_BRANCH
+      - echo $ICON_DATA | base64 --decode > $ICON_FILE
+      - icomoon-cli -i $ICON_FILE -s selection.json -n $ICON_BRANCH -o ./new-icon
+      - cd ./new-icon
+      - cp -r . ../
+      - cd ../
+      - rm -rf new-icon
+      - rm $ICON_FILE
+      - git add .
+      - git config --global user.email "icomoon@codefresh.io"
+      - git config --global user.name "Icomoon Pipeline"
+      - git remote set-url origin https://$GITHUB_USER:$GITHUB_TOKEN@github.com/codefresh-io/cf-fonticon.git
+      - git commit -am "added new icon with icomoon"
+      - git push -f origin $ICON_BRANCH
+
+  githubpr:
+    image: codefresh/github-pr-plugin
+    environment:
+      - GITHUB_REPO_OWNER=codefresh-io
+      - GITHUB_REPO_NAME=cf-fonticon
+      - BASE=master
+      - HEAD=${{ICON_BRANCH}}
+      - TITLE=${{ICON_BRANCH}}
