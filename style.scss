@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?ei6f50');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?ei6f50#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?ei6f50') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?ei6f50') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?ei6f50##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?irl33i');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?irl33i#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?irl33i') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?irl33i') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?irl33i##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,6 +26,54 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-codefresh-trigger-gitlab-icon .path1 {
+  &:before {
+    content: $icon-codefresh-trigger-gitlab-icon-path1;  
+    color: rgb(226, 67, 41);
+  }
+}
+.icon-codefresh-trigger-gitlab-icon .path2 {
+  &:before {
+    content: $icon-codefresh-trigger-gitlab-icon-path2;  
+    margin-left: -1em;  
+    color: rgb(252, 109, 38);
+  }
+}
+.icon-codefresh-trigger-gitlab-icon .path3 {
+  &:before {
+    content: $icon-codefresh-trigger-gitlab-icon-path3;  
+    margin-left: -1em;  
+    color: rgb(252, 163, 38);
+  }
+}
+.icon-codefresh-trigger-gitlab-icon .path4 {
+  &:before {
+    content: $icon-codefresh-trigger-gitlab-icon-path4;  
+    margin-left: -1em;  
+    color: rgb(226, 67, 41);
+  }
+}
+.icon-codefresh-trigger-gitlab-icon .path5 {
+  &:before {
+    content: $icon-codefresh-trigger-gitlab-icon-path5;  
+    margin-left: -1em;  
+    color: rgb(252, 109, 38);
+  }
+}
+.icon-codefresh-trigger-gitlab-icon .path6 {
+  &:before {
+    content: $icon-codefresh-trigger-gitlab-icon-path6;  
+    margin-left: -1em;  
+    color: rgb(252, 163, 38);
+  }
+}
+.icon-codefresh-trigger-gitlab-icon .path7 {
+  &:before {
+    content: $icon-codefresh-trigger-gitlab-icon-path7;  
+    margin-left: -1em;  
+    color: rgb(226, 67, 41);
+  }
+}
 .icon-codefresh-skip {
   &:before {
     content: $icon-codefresh-skip;     
