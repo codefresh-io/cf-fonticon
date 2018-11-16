@@ -4,6 +4,7 @@ steps:
     image: r.cfcr.io/codefresh-inc/codefreshio/cficomoon:master
     commands:
       - git checkout master
+      - git pull origin master
       - git checkout -B $ICON_BRANCH
       - echo $ICON_DATA | base64 --decode > $ICON_FILE
       - icomoon-cli -i $ICON_FILE -s selection.json -n $ICON_BRANCH -o ./new-icon
