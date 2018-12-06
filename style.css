@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'codefresh';
-  src:  url('fonts/codefresh.eot?irm8h9');
-  src:  url('fonts/codefresh.eot?irm8h9#iefix') format('embedded-opentype'),
-    url('fonts/codefresh.ttf?irm8h9') format('truetype'),
-    url('fonts/codefresh.woff?irm8h9') format('woff'),
-    url('fonts/codefresh.svg?irm8h9#codefresh') format('svg');
+  src:  url('fonts/codefresh.eot?ml2tsk');
+  src:  url('fonts/codefresh.eot?ml2tsk#iefix') format('embedded-opentype'),
+    url('fonts/codefresh.ttf?ml2tsk') format('truetype'),
+    url('fonts/codefresh.woff?ml2tsk') format('woff'),
+    url('fonts/codefresh.svg?ml2tsk#codefresh') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,13 +24,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-codefresh-pending-approval:before {
+  content: "\e906";
+}
 .icon-codefresh-projects-tab:before {
   content: "\e963";
-  color: #a8eee7;
 }
 .icon-codefresh-leaves:before {
   content: "\e962";
-  color: #fff;
 }
 .icon-codefresh-account-nodes-menu:before {
   content: "\e961";
@@ -46,43 +47,18 @@
 }
 .icon-codefresh-account-arrow-left:before {
   content: "\e95d";
-  color: #fff;
-}
-.icon-codefresh-account-invoices-3:before {
-  content: "\e95c";
-  color: #a8eee7;
-}
-.icon-codefresh-account-referals-3:before {
-  content: "\e95b";
-  color: #abede6;
-}
-.icon-codefresh-account-registry-3:before {
-  content: "\e95a";
-  color: #abede6;
-}
-.icon-codefresh-account-referals-2:before {
-  content: "\e959";
-}
-.icon-codefresh-account-registry-2:before {
-  content: "\e958";
-}
-.icon-codefresh-account-registry-1:before {
-  content: "\e957";
 }
 .icon-codefresh-account-teams-2:before {
   content: "\e956";
-  color: #a8eee7;
 }
 .icon-codefresh-account-invoices:before {
   content: "\e955";
 }
 .icon-codefresh-account-plans:before {
   content: "\e954";
-  color: #a8eee7;
 }
 .icon-codefresh-account-permissions:before {
   content: "\e953";
-  color: #a8eee7;
 }
 .icon-codefresh-account-teams:before {
   content: "\e952";
@@ -110,23 +86,18 @@
 }
 .icon-codefresh-profile-configuration:before {
   content: "\e94a";
-  color: #888;
 }
 .icon-codefresh-profile-accounts-settings:before {
   content: "\e949";
-  color: #888;
 }
 .icon-codefresh-accounts:before {
   content: "\e948";
-  color: #888;
 }
 .icon-codefresh-terminated:before {
   content: "\e947";
-  color: #fff;
 }
 .icon-codefresh-skip:before {
   content: "\e946";
-  color: #fff;
 }
 .icon-codefresh-vm-grid:before {
   content: "\e944";
@@ -213,68 +184,71 @@
   content: "\e91f";
 }
 .icon-codefresh-docker-logo-white .path1:before {
-  content: "\e905";
+  content: "\e914";
   color: rgb(0, 0, 0);
 }
 .icon-codefresh-docker-logo-white .path2:before {
-  content: "\e906";
-  margin-left: -1.099609375em;
-  color: rgb(255, 255, 255);
-}
-.icon-codefresh-docker-logo-white .path3:before {
-  content: "\e914";
-  margin-left: -1.099609375em;
-  color: rgb(255, 255, 255);
-}
-.icon-codefresh-docker-logo-white .path4:before {
   content: "\e915";
   margin-left: -1.099609375em;
   color: rgb(255, 255, 255);
 }
-.icon-codefresh-docker-logo-white .path5:before {
+.icon-codefresh-docker-logo-white .path3:before {
   content: "\e916";
   margin-left: -1.099609375em;
   color: rgb(255, 255, 255);
 }
-.icon-codefresh-docker-logo-white .path6:before {
+.icon-codefresh-docker-logo-white .path4:before {
   content: "\e917";
   margin-left: -1.099609375em;
   color: rgb(255, 255, 255);
 }
-.icon-codefresh-docker-logo-white .path7:before {
+.icon-codefresh-docker-logo-white .path5:before {
   content: "\e918";
   margin-left: -1.099609375em;
   color: rgb(255, 255, 255);
 }
-.icon-codefresh-docker-logo-white .path8:before {
+.icon-codefresh-docker-logo-white .path6:before {
   content: "\e919";
   margin-left: -1.099609375em;
   color: rgb(255, 255, 255);
 }
-.icon-codefresh-docker-logo-white .path9:before {
+.icon-codefresh-docker-logo-white .path7:before {
   content: "\e91a";
   margin-left: -1.099609375em;
   color: rgb(255, 255, 255);
 }
-.icon-codefresh-docker-logo-white .path10:before {
+.icon-codefresh-docker-logo-white .path8:before {
   content: "\e91b";
   margin-left: -1.099609375em;
   color: rgb(255, 255, 255);
 }
-.icon-codefresh-docker-logo-white .path11:before {
+.icon-codefresh-docker-logo-white .path9:before {
   content: "\e91c";
   margin-left: -1.099609375em;
   color: rgb(255, 255, 255);
 }
-.icon-codefresh-docker-logo-white .path12:before {
+.icon-codefresh-docker-logo-white .path10:before {
   content: "\e91d";
+  margin-left: -1.099609375em;
+  color: rgb(255, 255, 255);
+}
+.icon-codefresh-docker-logo-white .path11:before {
+  content: "\e91e";
+  margin-left: -1.099609375em;
+  color: rgb(255, 255, 255);
+}
+.icon-codefresh-docker-logo-white .path12:before {
+  content: "\e957";
   margin-left: -1.099609375em;
   color: rgb(0, 0, 0);
 }
 .icon-codefresh-docker-logo-white .path13:before {
-  content: "\e91e";
+  content: "\e958";
   margin-left: -1.099609375em;
   color: rgb(255, 255, 255);
+}
+.icon-codefresh-docker-logo-transparent:before {
+  content: "\e905";
 }
 .icon-codefresh-un-trash:before {
   content: "\e904";
