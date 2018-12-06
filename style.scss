@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?lbtral');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?lbtral#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?lbtral') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?lbtral') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?lbtral##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?wd5abn');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?wd5abn#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?wd5abn') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?wd5abn') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?wd5abn##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,6 +26,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-codefresh-projects {
+  &:before {
+    content: $icon-codefresh-projects;     
+    color: #a8eee7;
+  }
+}
 .icon-codefresh-leaves {
   &:before {
     content: $icon-codefresh-leaves;     
@@ -609,9 +615,9 @@
     content: $icon-codefresh-plus-2; 
   }
 }
-.icon-codefresh-projects {
+.icon-codefresh-projects1 {
   &:before {
-    content: $icon-codefresh-projects; 
+    content: $icon-codefresh-projects1; 
   }
 }
 .icon-codefresh-promote {
