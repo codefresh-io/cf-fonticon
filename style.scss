@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?l9ya4m');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?l9ya4m#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?l9ya4m') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?l9ya4m') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?l9ya4m##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?13iaw');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?13iaw#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?13iaw') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?13iaw') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?13iaw##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -28,8 +28,7 @@
 
 .icon-codefresh-confirmation-warning {
   &:before {
-    content: $icon-codefresh-confirmation-warning;     
-    color: #555;
+    content: $icon-codefresh-confirmation-warning; 
   }
 }
 .icon-codefresh-behind-firewall {
