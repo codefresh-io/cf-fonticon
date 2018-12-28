@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?qj3x2o');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?qj3x2o#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?qj3x2o') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?qj3x2o') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?qj3x2o##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?l9ya4m');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?l9ya4m#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?l9ya4m') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?l9ya4m') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?l9ya4m##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,6 +26,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-codefresh-confirmation-warning {
+  &:before {
+    content: $icon-codefresh-confirmation-warning;     
+    color: #555;
+  }
+}
 .icon-codefresh-behind-firewall {
   &:before {
     content: $icon-codefresh-behind-firewall; 
