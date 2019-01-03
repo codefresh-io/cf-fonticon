@@ -26,7 +26,6 @@
 
 .icon-codefresh-image-logs:before {
   content: "\e96b";
-  color: #f00;
 }
 .icon-codefresh-build-metric:before {
   content: "\e96a";
