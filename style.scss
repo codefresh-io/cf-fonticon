@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?dg0m3r');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?dg0m3r#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?dg0m3r') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?dg0m3r') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?dg0m3r##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?twlbbp');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?twlbbp#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?twlbbp') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?twlbbp') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?twlbbp##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,813 +26,820 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-codefresh-boards {
+  &:before {
+    content: $icon-codefresh-boards; 
+  }
+}
 .icon-codefresh-image-logs {
   &:before {
     content: $icon-codefresh-image-logs;     
+    color: #f00;
   }
 }
 .icon-codefresh-build-metric {
   &:before {
-    content: $icon-codefresh-build-metric;
+    content: $icon-codefresh-build-metric; 
   }
 }
 .icon-codefresh-confirmation-warning {
   &:before {
-    content: $icon-codefresh-confirmation-warning;
+    content: $icon-codefresh-confirmation-warning; 
   }
 }
 .icon-codefresh-behind-firewall {
   &:before {
-    content: $icon-codefresh-behind-firewall;
+    content: $icon-codefresh-behind-firewall; 
   }
 }
 .icon-codefresh-thumb-down {
   &:before {
-    content: $icon-codefresh-thumb-down;
+    content: $icon-codefresh-thumb-down; 
   }
 }
 .icon-codefresh-thumb-up {
   &:before {
-    content: $icon-codefresh-thumb-up;
+    content: $icon-codefresh-thumb-up; 
   }
 }
 .icon-codefresh-build-debug {
   &:before {
-    content: $icon-codefresh-build-debug;
+    content: $icon-codefresh-build-debug; 
   }
 }
 .icon-codefresh-build-output {
   &:before {
-    content: $icon-codefresh-build-output;
+    content: $icon-codefresh-build-output; 
   }
 }
 .icon-codefresh-build-state {
   &:before {
-    content: $icon-codefresh-build-state;
+    content: $icon-codefresh-build-state; 
   }
 }
 .icon-codefresh-build-yaml {
   &:before {
-    content: $icon-codefresh-build-yaml;
+    content: $icon-codefresh-build-yaml; 
   }
 }
 .icon-codefresh-approved {
   &:before {
-    content: $icon-codefresh-approved;
+    content: $icon-codefresh-approved; 
   }
 }
 .icon-codefresh-denied {
   &:before {
-    content: $icon-codefresh-denied;
+    content: $icon-codefresh-denied; 
   }
 }
 .icon-codefresh-pending-approval {
   &:before {
-    content: $icon-codefresh-pending-approval;
+    content: $icon-codefresh-pending-approval; 
   }
 }
 .icon-codefresh-projects-tab {
   &:before {
-    content: $icon-codefresh-projects-tab;
+    content: $icon-codefresh-projects-tab; 
   }
 }
 .icon-codefresh-leaves {
   &:before {
-    content: $icon-codefresh-leaves;
+    content: $icon-codefresh-leaves; 
   }
 }
 .icon-codefresh-account-nodes-menu {
   &:before {
-    content: $icon-codefresh-account-nodes-menu;
+    content: $icon-codefresh-account-nodes-menu; 
   }
 }
 .icon-codefresh-account-nodes {
   &:before {
-    content: $icon-codefresh-account-nodes;
+    content: $icon-codefresh-account-nodes; 
   }
 }
 .icon-codefresh-account-runtime-environments {
   &:before {
-    content: $icon-codefresh-account-runtime-environments;
+    content: $icon-codefresh-account-runtime-environments; 
   }
 }
 .icon-codefresh-account-sso {
   &:before {
-    content: $icon-codefresh-account-sso;
+    content: $icon-codefresh-account-sso; 
   }
 }
 .icon-codefresh-account-arrow-left {
   &:before {
-    content: $icon-codefresh-account-arrow-left;
+    content: $icon-codefresh-account-arrow-left; 
   }
 }
 .icon-codefresh-account-teams-2 {
   &:before {
-    content: $icon-codefresh-account-teams-2;
+    content: $icon-codefresh-account-teams-2; 
   }
 }
 .icon-codefresh-account-invoices {
   &:before {
-    content: $icon-codefresh-account-invoices;
+    content: $icon-codefresh-account-invoices; 
   }
 }
 .icon-codefresh-account-plans {
   &:before {
-    content: $icon-codefresh-account-plans;
+    content: $icon-codefresh-account-plans; 
   }
 }
 .icon-codefresh-account-permissions {
   &:before {
-    content: $icon-codefresh-account-permissions;
+    content: $icon-codefresh-account-permissions; 
   }
 }
 .icon-codefresh-account-teams {
   &:before {
-    content: $icon-codefresh-account-teams;
+    content: $icon-codefresh-account-teams; 
   }
 }
 .icon-codefresh-account-registry {
   &:before {
-    content: $icon-codefresh-account-registry;
+    content: $icon-codefresh-account-registry; 
   }
 }
 .icon-codefresh-account-notifications {
   &:before {
-    content: $icon-codefresh-account-notifications;
+    content: $icon-codefresh-account-notifications; 
   }
 }
 .icon-codefresh-account-tokens {
   &:before {
-    content: $icon-codefresh-account-tokens;
+    content: $icon-codefresh-account-tokens; 
   }
 }
 .icon-codefresh-account-shared {
   &:before {
-    content: $icon-codefresh-account-shared;
+    content: $icon-codefresh-account-shared; 
   }
 }
 .icon-codefresh-account-referals {
   &:before {
-    content: $icon-codefresh-account-referals;
+    content: $icon-codefresh-account-referals; 
   }
 }
 .icon-codefresh-account-profile {
   &:before {
-    content: $icon-codefresh-account-profile;
+    content: $icon-codefresh-account-profile; 
   }
 }
 .icon-codefresh-profile-logout {
   &:before {
-    content: $icon-codefresh-profile-logout;
+    content: $icon-codefresh-profile-logout; 
   }
 }
 .icon-codefresh-profile-configuration {
   &:before {
-    content: $icon-codefresh-profile-configuration;
+    content: $icon-codefresh-profile-configuration; 
   }
 }
 .icon-codefresh-profile-accounts-settings {
   &:before {
-    content: $icon-codefresh-profile-accounts-settings;
+    content: $icon-codefresh-profile-accounts-settings; 
   }
 }
 .icon-codefresh-accounts {
   &:before {
-    content: $icon-codefresh-accounts;
+    content: $icon-codefresh-accounts; 
   }
 }
 .icon-codefresh-terminated {
   &:before {
-    content: $icon-codefresh-terminated;
+    content: $icon-codefresh-terminated; 
   }
 }
 .icon-codefresh-skip {
   &:before {
-    content: $icon-codefresh-skip;
+    content: $icon-codefresh-skip; 
   }
 }
 .icon-codefresh-vm-grid {
   &:before {
-    content: $icon-codefresh-vm-grid;
+    content: $icon-codefresh-vm-grid; 
   }
 }
 .icon-codefresh-vm-list {
   &:before {
-    content: $icon-codefresh-vm-list;
+    content: $icon-codefresh-vm-list; 
   }
 }
 .icon-codefresh-azure {
   &:before {
-    content: $icon-codefresh-azure;
+    content: $icon-codefresh-azure; 
   }
 }
 .icon-codefresh-docker-swarm2 {
   &:before {
-    content: $icon-codefresh-docker-swarm2;
+    content: $icon-codefresh-docker-swarm2; 
   }
 }
 .icon-codefresh-billing {
   &:before {
-    content: $icon-codefresh-billing;
+    content: $icon-codefresh-billing; 
   }
 }
 .icon-codefresh-integrations {
   &:before {
-    content: $icon-codefresh-integrations;
+    content: $icon-codefresh-integrations; 
   }
 }
 .icon-codefresh-larr {
   &:before {
-    content: $icon-codefresh-larr;
+    content: $icon-codefresh-larr; 
   }
 }
 .icon-codefresh-rarr {
   &:before {
-    content: $icon-codefresh-rarr;
+    content: $icon-codefresh-rarr; 
   }
 }
 .icon-codefresh-user-settings2 {
   &:before {
-    content: $icon-codefresh-user-settings2;
+    content: $icon-codefresh-user-settings2; 
   }
 }
 .icon-codefresh-images-cube {
   &:before {
-    content: $icon-codefresh-images-cube;
+    content: $icon-codefresh-images-cube; 
   }
 }
 .icon-codefresh-k8s {
   &:before {
-    content: $icon-codefresh-k8s;
+    content: $icon-codefresh-k8s; 
   }
 }
 .icon-codefresh-pipelines {
   &:before {
-    content: $icon-codefresh-pipelines;
+    content: $icon-codefresh-pipelines; 
   }
 }
 .icon-codefresh-repositories {
   &:before {
-    content: $icon-codefresh-repositories;
+    content: $icon-codefresh-repositories; 
   }
 }
 .icon-codefresh-tutorials {
   &:before {
-    content: $icon-codefresh-tutorials;
+    content: $icon-codefresh-tutorials; 
   }
 }
 .icon-codefresh-icon-status {
   &:before {
-    content: $icon-codefresh-icon-status;
+    content: $icon-codefresh-icon-status; 
   }
 }
 .icon-codefresh-docs {
   &:before {
-    content: $icon-codefresh-docs;
+    content: $icon-codefresh-docs; 
   }
 }
 .icon-codefresh-examples {
   &:before {
-    content: $icon-codefresh-examples;
+    content: $icon-codefresh-examples; 
   }
 }
 .icon-codefresh-star {
   &:before {
-    content: $icon-codefresh-star;
+    content: $icon-codefresh-star; 
   }
 }
 .icon-codefresh-troubleshooting {
   &:before {
-    content: $icon-codefresh-troubleshooting;
+    content: $icon-codefresh-troubleshooting; 
   }
 }
 .icon-codefresh-docker-swarm {
   &:before {
-    content: $icon-codefresh-docker-swarm;
+    content: $icon-codefresh-docker-swarm; 
   }
 }
 .icon-codefresh-lightning {
   &:before {
-    content: $icon-codefresh-lightning;
+    content: $icon-codefresh-lightning; 
   }
 }
 .icon-codefresh-hamburger {
   &:before {
-    content: $icon-codefresh-hamburger;
+    content: $icon-codefresh-hamburger; 
   }
 }
 .icon-codefresh-ok-strong {
   &:before {
-    content: $icon-codefresh-ok-strong;
+    content: $icon-codefresh-ok-strong; 
   }
 }
 .icon-codefresh-error {
   &:before {
-    content: $icon-codefresh-error;
+    content: $icon-codefresh-error; 
   }
 }
 .icon-codefresh-hourglass {
   &:before {
-    content: $icon-codefresh-hourglass;
+    content: $icon-codefresh-hourglass; 
   }
 }
 .icon-codefresh-single-image {
   &:before {
-    content: $icon-codefresh-single-image;
+    content: $icon-codefresh-single-image; 
   }
 }
 .icon-codefresh-yml {
   &:before {
-    content: $icon-codefresh-yml;
+    content: $icon-codefresh-yml; 
   }
 }
 .icon-codefresh-logo {
   &:before {
-    content: $icon-codefresh-logo;
+    content: $icon-codefresh-logo; 
   }
 }
 .icon-codefresh-docker-logo-white .path1 {
   &:before {
-    content: $icon-codefresh-docker-logo-white-path1;
+    content: $icon-codefresh-docker-logo-white-path1;  
     color: rgb(0, 0, 0);
   }
 }
 .icon-codefresh-docker-logo-white .path2 {
   &:before {
-    content: $icon-codefresh-docker-logo-white-path2;
-    margin-left: -1.099609375em;
+    content: $icon-codefresh-docker-logo-white-path2;  
+    margin-left: -1.099609375em;  
     color: rgb(255, 255, 255);
   }
 }
 .icon-codefresh-docker-logo-white .path3 {
   &:before {
-    content: $icon-codefresh-docker-logo-white-path3;
-    margin-left: -1.099609375em;
+    content: $icon-codefresh-docker-logo-white-path3;  
+    margin-left: -1.099609375em;  
     color: rgb(255, 255, 255);
   }
 }
 .icon-codefresh-docker-logo-white .path4 {
   &:before {
-    content: $icon-codefresh-docker-logo-white-path4;
-    margin-left: -1.099609375em;
+    content: $icon-codefresh-docker-logo-white-path4;  
+    margin-left: -1.099609375em;  
     color: rgb(255, 255, 255);
   }
 }
 .icon-codefresh-docker-logo-white .path5 {
   &:before {
-    content: $icon-codefresh-docker-logo-white-path5;
-    margin-left: -1.099609375em;
+    content: $icon-codefresh-docker-logo-white-path5;  
+    margin-left: -1.099609375em;  
     color: rgb(255, 255, 255);
   }
 }
 .icon-codefresh-docker-logo-white .path6 {
   &:before {
-    content: $icon-codefresh-docker-logo-white-path6;
-    margin-left: -1.099609375em;
+    content: $icon-codefresh-docker-logo-white-path6;  
+    margin-left: -1.099609375em;  
     color: rgb(255, 255, 255);
   }
 }
 .icon-codefresh-docker-logo-white .path7 {
   &:before {
-    content: $icon-codefresh-docker-logo-white-path7;
-    margin-left: -1.099609375em;
+    content: $icon-codefresh-docker-logo-white-path7;  
+    margin-left: -1.099609375em;  
     color: rgb(255, 255, 255);
   }
 }
 .icon-codefresh-docker-logo-white .path8 {
   &:before {
-    content: $icon-codefresh-docker-logo-white-path8;
-    margin-left: -1.099609375em;
+    content: $icon-codefresh-docker-logo-white-path8;  
+    margin-left: -1.099609375em;  
     color: rgb(255, 255, 255);
   }
 }
 .icon-codefresh-docker-logo-white .path9 {
   &:before {
-    content: $icon-codefresh-docker-logo-white-path9;
-    margin-left: -1.099609375em;
+    content: $icon-codefresh-docker-logo-white-path9;  
+    margin-left: -1.099609375em;  
     color: rgb(255, 255, 255);
   }
 }
 .icon-codefresh-docker-logo-white .path10 {
   &:before {
-    content: $icon-codefresh-docker-logo-white-path10;
-    margin-left: -1.099609375em;
+    content: $icon-codefresh-docker-logo-white-path10;  
+    margin-left: -1.099609375em;  
     color: rgb(255, 255, 255);
   }
 }
 .icon-codefresh-docker-logo-white .path11 {
   &:before {
-    content: $icon-codefresh-docker-logo-white-path11;
-    margin-left: -1.099609375em;
+    content: $icon-codefresh-docker-logo-white-path11;  
+    margin-left: -1.099609375em;  
     color: rgb(255, 255, 255);
   }
 }
 .icon-codefresh-docker-logo-white .path12 {
   &:before {
-    content: $icon-codefresh-docker-logo-white-path12;
-    margin-left: -1.099609375em;
+    content: $icon-codefresh-docker-logo-white-path12;  
+    margin-left: -1.099609375em;  
     color: rgb(0, 0, 0);
   }
 }
 .icon-codefresh-docker-logo-white .path13 {
   &:before {
-    content: $icon-codefresh-docker-logo-white-path13;
-    margin-left: -1.099609375em;
+    content: $icon-codefresh-docker-logo-white-path13;  
+    margin-left: -1.099609375em;  
     color: rgb(255, 255, 255);
   }
 }
 .icon-codefresh-docker-logo-transparent {
   &:before {
-    content: $icon-codefresh-docker-logo-transparent;
+    content: $icon-codefresh-docker-logo-transparent; 
   }
 }
 .icon-codefresh-un-trash {
   &:before {
-    content: $icon-codefresh-un-trash;
+    content: $icon-codefresh-un-trash; 
   }
 }
 .icon-codefresh-icon-info {
   &:before {
-    content: $icon-codefresh-icon-info;
+    content: $icon-codefresh-icon-info; 
   }
 }
 .icon-codefresh-icon-warning {
   &:before {
-    content: $icon-codefresh-icon-warning;
+    content: $icon-codefresh-icon-warning; 
   }
 }
 .icon-codefresh-account-managment {
   &:before {
-    content: $icon-codefresh-account-managment;
+    content: $icon-codefresh-account-managment; 
   }
 }
 .icon-codefresh-activity-log {
   &:before {
-    content: $icon-codefresh-activity-log;
+    content: $icon-codefresh-activity-log; 
   }
 }
 .icon-codefresh-add-layer {
   &:before {
-    content: $icon-codefresh-add-layer;
+    content: $icon-codefresh-add-layer; 
   }
 }
 .icon-codefresh-arrow-right {
   &:before {
-    content: $icon-codefresh-arrow-right;
+    content: $icon-codefresh-arrow-right; 
   }
 }
 .icon-codefresh-arrow_5 {
   &:before {
-    content: $icon-codefresh-arrow_5;
+    content: $icon-codefresh-arrow_5; 
   }
 }
 .icon-codefresh-builds-2 {
   &:before {
-    content: $icon-codefresh-builds-2;
+    content: $icon-codefresh-builds-2; 
   }
 }
 .icon-codefresh-chebron-r {
   &:before {
-    content: $icon-codefresh-chebron-r;
+    content: $icon-codefresh-chebron-r; 
   }
 }
 .icon-codefresh-code {
   &:before {
-    content: $icon-codefresh-code;
+    content: $icon-codefresh-code; 
   }
 }
 .icon-codefresh-composition {
   &:before {
-    content: $icon-codefresh-composition;
+    content: $icon-codefresh-composition; 
   }
 }
 .icon-codefresh-compositions-2 {
   &:before {
-    content: $icon-codefresh-compositions-2;
+    content: $icon-codefresh-compositions-2; 
   }
 }
 .icon-codefresh-computer {
   &:before {
-    content: $icon-codefresh-computer;
+    content: $icon-codefresh-computer; 
   }
 }
 .icon-codefresh-copy-docker-pull {
   &:before {
-    content: $icon-codefresh-copy-docker-pull;
+    content: $icon-codefresh-copy-docker-pull; 
   }
 }
 .icon-codefresh-created {
   &:before {
-    content: $icon-codefresh-created;
+    content: $icon-codefresh-created; 
   }
 }
 .icon-codefresh-date {
   &:before {
-    content: $icon-codefresh-date;
+    content: $icon-codefresh-date; 
   }
 }
 .icon-codefresh-docker-logo {
   &:before {
-    content: $icon-codefresh-docker-logo;
+    content: $icon-codefresh-docker-logo; 
   }
 }
 .icon-codefresh-download {
   &:before {
-    content: $icon-codefresh-download;
+    content: $icon-codefresh-download; 
   }
 }
 .icon-codefresh-edit-pencil {
   &:before {
-    content: $icon-codefresh-edit-pencil;
+    content: $icon-codefresh-edit-pencil; 
   }
 }
 .icon-codefresh-enviroments-2 {
   &:before {
-    content: $icon-codefresh-enviroments-2;
+    content: $icon-codefresh-enviroments-2; 
   }
 }
 .icon-codefresh-environments {
   &:before {
-    content: $icon-codefresh-environments;
+    content: $icon-codefresh-environments; 
   }
 }
 .icon-codefresh-example {
   &:before {
-    content: $icon-codefresh-example;
+    content: $icon-codefresh-example; 
   }
 }
 .icon-codefresh-fail-2 {
   &:before {
-    content: $icon-codefresh-fail-2;
+    content: $icon-codefresh-fail-2; 
   }
 }
 .icon-codefresh-failed {
   &:before {
-    content: $icon-codefresh-failed;
+    content: $icon-codefresh-failed; 
   }
 }
 .icon-codefresh-github {
   &:before {
-    content: $icon-codefresh-github;
+    content: $icon-codefresh-github; 
   }
 }
 .icon-codefresh-images {
   &:before {
-    content: $icon-codefresh-images;
+    content: $icon-codefresh-images; 
   }
 }
 .icon-codefresh-images-2 {
   &:before {
-    content: $icon-codefresh-images-2;
+    content: $icon-codefresh-images-2; 
   }
 }
 .icon-codefresh-launch-2 {
   &:before {
-    content: $icon-codefresh-launch-2;
+    content: $icon-codefresh-launch-2; 
   }
 }
 .icon-codefresh-lenght {
   &:before {
-    content: $icon-codefresh-lenght;
+    content: $icon-codefresh-lenght; 
   }
 }
 .icon-codefresh-lock-close {
   &:before {
-    content: $icon-codefresh-lock-close;
+    content: $icon-codefresh-lock-close; 
   }
 }
 .icon-codefresh-lock-open {
   &:before {
-    content: $icon-codefresh-lock-open;
+    content: $icon-codefresh-lock-open; 
   }
 }
 .icon-codefresh-log {
   &:before {
-    content: $icon-codefresh-log;
+    content: $icon-codefresh-log; 
   }
 }
 .icon-codefresh-logs-2 {
   &:before {
-    content: $icon-codefresh-logs-2;
+    content: $icon-codefresh-logs-2; 
   }
 }
 .icon-codefresh-ok {
   &:before {
-    content: $icon-codefresh-ok;
+    content: $icon-codefresh-ok; 
   }
 }
 .icon-codefresh-pause {
   &:before {
-    content: $icon-codefresh-pause;
+    content: $icon-codefresh-pause; 
   }
 }
 .icon-codefresh-pending {
   &:before {
-    content: $icon-codefresh-pending;
+    content: $icon-codefresh-pending; 
   }
 }
 .icon-codefresh-pipeline-2 {
   &:before {
-    content: $icon-codefresh-pipeline-2;
+    content: $icon-codefresh-pipeline-2; 
   }
 }
 .icon-codefresh-plus-2 {
   &:before {
-    content: $icon-codefresh-plus-2;
+    content: $icon-codefresh-plus-2; 
   }
 }
 .icon-codefresh-projects {
   &:before {
-    content: $icon-codefresh-projects;
+    content: $icon-codefresh-projects; 
   }
 }
 .icon-codefresh-promote {
   &:before {
-    content: $icon-codefresh-promote;
+    content: $icon-codefresh-promote; 
   }
 }
 .icon-codefresh-promote-2 {
   &:before {
-    content: $icon-codefresh-promote-2;
+    content: $icon-codefresh-promote-2; 
   }
 }
 .icon-codefresh-pull-request {
   &:before {
-    content: $icon-codefresh-pull-request;
+    content: $icon-codefresh-pull-request; 
   }
 }
 .icon-codefresh-queue {
   &:before {
-    content: $icon-codefresh-queue;
+    content: $icon-codefresh-queue; 
   }
 }
 .icon-codefresh-rebuild {
   &:before {
-    content: $icon-codefresh-rebuild;
+    content: $icon-codefresh-rebuild; 
   }
 }
 .icon-codefresh-refresh {
   &:before {
-    content: $icon-codefresh-refresh;
+    content: $icon-codefresh-refresh; 
   }
 }
 .icon-codefresh-run-settings {
   &:before {
-    content: $icon-codefresh-run-settings;
+    content: $icon-codefresh-run-settings; 
   }
 }
 .icon-codefresh-running {
   &:before {
-    content: $icon-codefresh-running;
+    content: $icon-codefresh-running; 
   }
 }
 .icon-codefresh-scan {
   &:before {
-    content: $icon-codefresh-scan;
+    content: $icon-codefresh-scan; 
   }
 }
 .icon-codefresh-search {
   &:before {
-    content: $icon-codefresh-search;
+    content: $icon-codefresh-search; 
   }
 }
 .icon-codefresh-search-2 {
   &:before {
-    content: $icon-codefresh-search-2;
+    content: $icon-codefresh-search-2; 
   }
 }
 .icon-codefresh-send-email {
   &:before {
-    content: $icon-codefresh-send-email;
+    content: $icon-codefresh-send-email; 
   }
 }
 .icon-codefresh-service {
   &:before {
-    content: $icon-codefresh-service;
+    content: $icon-codefresh-service; 
   }
 }
 .icon-codefresh-services-2 {
   &:before {
-    content: $icon-codefresh-services-2;
+    content: $icon-codefresh-services-2; 
   }
 }
 .icon-codefresh-settings {
   &:before {
-    content: $icon-codefresh-settings;
+    content: $icon-codefresh-settings; 
   }
 }
 .icon-codefresh-stages {
   &:before {
-    content: $icon-codefresh-stages;
+    content: $icon-codefresh-stages; 
   }
 }
 .icon-codefresh-start {
   &:before {
-    content: $icon-codefresh-start;
+    content: $icon-codefresh-start; 
   }
 }
 .icon-codefresh-success-2 {
   &:before {
-    content: $icon-codefresh-success-2;
+    content: $icon-codefresh-success-2; 
   }
 }
 .icon-codefresh-table {
   &:before {
-    content: $icon-codefresh-table;
+    content: $icon-codefresh-table; 
   }
 }
 .icon-codefresh-tag {
   &:before {
-    content: $icon-codefresh-tag;
+    content: $icon-codefresh-tag; 
   }
 }
 .icon-codefresh-terminate {
   &:before {
-    content: $icon-codefresh-terminate;
+    content: $icon-codefresh-terminate; 
   }
 }
 .icon-codefresh-test-fail {
   &:before {
-    content: $icon-codefresh-test-fail;
+    content: $icon-codefresh-test-fail; 
   }
 }
 .icon-codefresh-test-ok {
   &:before {
-    content: $icon-codefresh-test-ok;
+    content: $icon-codefresh-test-ok; 
   }
 }
 .icon-codefresh-trash {
   &:before {
-    content: $icon-codefresh-trash;
+    content: $icon-codefresh-trash; 
   }
 }
 .icon-codefresh-upload-code {
   &:before {
-    content: $icon-codefresh-upload-code;
+    content: $icon-codefresh-upload-code; 
   }
 }
 .icon-codefresh-user {
   &:before {
-    content: $icon-codefresh-user;
+    content: $icon-codefresh-user; 
   }
 }
 .icon-codefresh-workflow {
   &:before {
-    content: $icon-codefresh-workflow;
+    content: $icon-codefresh-workflow; 
   }
 }
 .icon-codefresh-user-settings {
   &:before {
-    content: $icon-codefresh-user-settings;
+    content: $icon-codefresh-user-settings; 
   }
 }
 .icon-codefresh-account-settings {
   &:before {
-    content: $icon-codefresh-account-settings;
+    content: $icon-codefresh-account-settings; 
   }
 }
 .icon-codefresh-builds {
   &:before {
-    content: $icon-codefresh-builds;
+    content: $icon-codefresh-builds; 
   }
 }
 .icon-codefresh-docker {
   &:before {
-    content: $icon-codefresh-docker;
+    content: $icon-codefresh-docker; 
   }
 }
 .icon-codefresh-helm-charts {
   &:before {
-    content: $icon-codefresh-helm-charts;
+    content: $icon-codefresh-helm-charts; 
   }
 }
 .icon-codefresh-helm {
   &:before {
-    content: $icon-codefresh-helm;
+    content: $icon-codefresh-helm; 
   }
 }
 .icon-codefresh-email {
   &:before {
-    content: $icon-codefresh-email;
+    content: $icon-codefresh-email; 
   }
 }
 .icon-codefresh-minus {
   &:before {
-    content: $icon-codefresh-minus;
+    content: $icon-codefresh-minus; 
   }
 }
 .icon-codefresh-plus {
   &:before {
-    content: $icon-codefresh-plus;
+    content: $icon-codefresh-plus; 
   }
 }
 .icon-codefresh-kubernetes {
   &:before {
-    content: $icon-codefresh-kubernetes;
+    content: $icon-codefresh-kubernetes; 
   }
 }
 .icon-codefresh-dokcer-logs {
   &:before {
-    content: $icon-codefresh-dokcer-logs;
+    content: $icon-codefresh-dokcer-logs; 
   }
 }
+
