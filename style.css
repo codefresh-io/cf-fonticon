@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'codefresh';
-  src:  url('fonts/codefresh.eot?acxr8c');
-  src:  url('fonts/codefresh.eot?acxr8c#iefix') format('embedded-opentype'),
-    url('fonts/codefresh.ttf?acxr8c') format('truetype'),
-    url('fonts/codefresh.woff?acxr8c') format('woff'),
-    url('fonts/codefresh.svg?acxr8c#codefresh') format('svg');
+  src:  url('fonts/codefresh.eot?9whln3');
+  src:  url('fonts/codefresh.eot?9whln3#iefix') format('embedded-opentype'),
+    url('fonts/codefresh.ttf?9whln3') format('truetype'),
+    url('fonts/codefresh.woff?9whln3') format('woff'),
+    url('fonts/codefresh.svg?9whln3#codefresh') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-codefresh-regular-trash:before {
+  content: "\e976";
+}
+.icon-codefresh-file:before {
+  content: "\e972";
+}
+.icon-codefresh-more-circles:before {
+  content: "\e973";
+}
+.icon-codefresh-regular-pencil:before {
+  content: "\e974";
+}
+.icon-codefresh-text:before {
+  content: "\e975";
+}
 .icon-codefresh-regular-list:before {
   content: "\e971";
 }
