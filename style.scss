@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?go9614');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?go9614#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?go9614') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?go9614') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?go9614##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?acxr8c');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?acxr8c#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?acxr8c') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?acxr8c') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?acxr8c##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -33,20 +33,17 @@
 }
 .icon-codefresh-actions-copy {
   &:before {
-    content: $icon-codefresh-actions-copy;     
-    color: #518ff6;
+    content: $icon-codefresh-actions-copy; 
   }
 }
 .icon-codefresh-actions-template {
   &:before {
-    content: $icon-codefresh-actions-template;     
-    color: #518ff6;
+    content: $icon-codefresh-actions-template; 
   }
 }
 .icon-codefresh-actions-marketplace {
   &:before {
-    content: $icon-codefresh-actions-marketplace;     
-    color: #518ff6;
+    content: $icon-codefresh-actions-marketplace; 
   }
 }
 .icon-codefresh-menu-environments {
@@ -61,8 +58,7 @@
 }
 .icon-codefresh-image-logs {
   &:before {
-    content: $icon-codefresh-image-logs;     
-    color: #f00;
+    content: $icon-codefresh-image-logs; 
   }
 }
 .icon-codefresh-build-metric {
