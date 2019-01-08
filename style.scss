@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?82cu88');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?82cu88#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?82cu88') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?82cu88') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?82cu88##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?eb13xh');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?eb13xh#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?eb13xh') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?eb13xh') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?eb13xh##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,6 +26,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-codefresh-actions-copy {
+  &:before {
+    content: $icon-codefresh-actions-copy;     
+    color: #518ff6;
+  }
+}
 .icon-codefresh-actions-template {
   &:before {
     content: $icon-codefresh-actions-template;     
