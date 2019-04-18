@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'codefresh';
-  src:  url('fonts/codefresh.eot?yai6yy');
-  src:  url('fonts/codefresh.eot?yai6yy#iefix') format('embedded-opentype'),
-    url('fonts/codefresh.ttf?yai6yy') format('truetype'),
-    url('fonts/codefresh.woff?yai6yy') format('woff'),
-    url('fonts/codefresh.svg?yai6yy#codefresh') format('svg');
+  src:  url('fonts/codefresh.eot?qt4nd5');
+  src:  url('fonts/codefresh.eot?qt4nd5#iefix') format('embedded-opentype'),
+    url('fonts/codefresh.ttf?qt4nd5') format('truetype'),
+    url('fonts/codefresh.woff?qt4nd5') format('woff'),
+    url('fonts/codefresh.svg?qt4nd5#codefresh') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-codefresh-icons8-paragraph:before {
+  content: "\e982";
+}
+.icon-codefresh-hash-comment:before {
+  content: "\e983";
+}
+.icon-codefresh-expand:before {
+  content: "\e984";
+}
+.icon-codefresh-download-yaml:before {
+  content: "\e985";
+}
+.icon-codefresh-copy:before {
+  content: "\e986";
+}
 .icon-codefresh-paragraph:before {
   content: "\e981";
 }
