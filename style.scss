@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?acxrav');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?acxrav#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?acxrav') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?acxrav') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?acxrav##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?n5elfn');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?n5elfn#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?n5elfn') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?n5elfn') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?n5elfn##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,6 +26,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-codefresh-filter {
+  &:before {
+    content: $icon-codefresh-filter; 
+  }
+}
 .icon-codefresh-full-logs {
   &:before {
     content: $icon-codefresh-full-logs; 
