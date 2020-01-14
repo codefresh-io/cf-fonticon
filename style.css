@@ -36,15 +36,12 @@
 }
 .icon-codefresh-light-calendar:before {
   content: "\e999";
-  color: #4c4c4c;
 }
 .icon-codefresh-light-hourglass:before {
   content: "\e99a";
-  color: #4c4c4c;
 }
 .icon-codefresh-light-timer:before {
   content: "\e99b";
-  color: #4c4c4c;
 }
 .icon-codefresh-payload:before {
   content: "\e994";
