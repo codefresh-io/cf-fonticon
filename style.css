@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'codefresh';
-  src:  url('fonts/codefresh.eot?644nnk');
-  src:  url('fonts/codefresh.eot?644nnk#iefix') format('embedded-opentype'),
-    url('fonts/codefresh.ttf?644nnk') format('truetype'),
-    url('fonts/codefresh.woff?644nnk') format('woff'),
-    url('fonts/codefresh.svg?644nnk#codefresh') format('svg');
+  src:  url('fonts/codefresh.eot?cnmyst');
+  src:  url('fonts/codefresh.eot?cnmyst#iefix') format('embedded-opentype'),
+    url('fonts/codefresh.ttf?cnmyst') format('truetype'),
+    url('fonts/codefresh.woff?cnmyst') format('woff'),
+    url('fonts/codefresh.svg?cnmyst#codefresh') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
