@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?5k16g7');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?5k16g7#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?5k16g7') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?5k16g7') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?5k16g7##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?3j9o36');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?3j9o36#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?3j9o36') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?3j9o36') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?3j9o36##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,6 +27,26 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-codefresh-terminated-2 .path1 {
+  &:before {
+    content: $icon-codefresh-terminated-2-path1;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-codefresh-terminated-2 .path2 {
+  &:before {
+    content: $icon-codefresh-terminated-2-path2;  
+    margin-left: -0.9599609375em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.icon-codefresh-terminated-2 .path3 {
+  &:before {
+    content: $icon-codefresh-terminated-2-path3;  
+    margin-left: -0.9599609375em;  
+    color: rgb(255, 255, 255);
+  }
+}
 .icon-codefresh-commit {
   &:before {
     content: $icon-codefresh-commit; 

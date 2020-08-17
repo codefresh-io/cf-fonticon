@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'codefresh';
-  src:  url('fonts/codefresh.eot?5k16g7');
-  src:  url('fonts/codefresh.eot?5k16g7#iefix') format('embedded-opentype'),
-    url('fonts/codefresh.ttf?5k16g7') format('truetype'),
-    url('fonts/codefresh.woff?5k16g7') format('woff'),
-    url('fonts/codefresh.svg?5k16g7#codefresh') format('svg');
+  src:  url('fonts/codefresh.eot?3j9o36');
+  src:  url('fonts/codefresh.eot?3j9o36#iefix') format('embedded-opentype'),
+    url('fonts/codefresh.ttf?3j9o36') format('truetype'),
+    url('fonts/codefresh.woff?3j9o36') format('woff'),
+    url('fonts/codefresh.svg?3j9o36#codefresh') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,20 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-codefresh-terminated-2 .path1:before {
+  content: "\e9ac";
+  color: rgb(0, 0, 0);
+}
+.icon-codefresh-terminated-2 .path2:before {
+  content: "\e9ad";
+  margin-left: -0.9599609375em;
+  color: rgb(255, 255, 255);
+}
+.icon-codefresh-terminated-2 .path3:before {
+  content: "\e9ae";
+  margin-left: -0.9599609375em;
+  color: rgb(255, 255, 255);
+}
 .icon-codefresh-commit:before {
   content: "\e9ab";
 }
