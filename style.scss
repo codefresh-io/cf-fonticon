@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?3j9o36');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?3j9o36#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?3j9o36') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?3j9o36') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?3j9o36##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?vqpq4v');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?vqpq4v#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?vqpq4v') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?vqpq4v') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?vqpq4v##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,6 +27,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-codefresh-chat {
+  &:before {
+    content: $icon-codefresh-chat; 
+  }
+}
 .icon-codefresh-terminated-2 .path1 {
   &:before {
     content: $icon-codefresh-terminated-2-path1;  
