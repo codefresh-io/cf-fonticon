@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'codefresh';
-  src:  url('fonts/codefresh.eot?gbf42v');
-  src:  url('fonts/codefresh.eot?gbf42v#iefix') format('embedded-opentype'),
-    url('fonts/codefresh.ttf?gbf42v') format('truetype'),
-    url('fonts/codefresh.woff?gbf42v') format('woff'),
-    url('fonts/codefresh.svg?gbf42v#codefresh') format('svg');
+  src:  url('fonts/codefresh.eot?4cb925');
+  src:  url('fonts/codefresh.eot?4cb925#iefix') format('embedded-opentype'),
+    url('fonts/codefresh.ttf?4cb925') format('truetype'),
+    url('fonts/codefresh.woff?4cb925') format('woff'),
+    url('fonts/codefresh.svg?4cb925#codefresh') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,26 +25,43 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-codefresh-accountInfo:before {
-  content: "\e9a6";
+.icon-codefresh-history:before {
+  content: "\e9b0";
 }
-.icon-codefresh-audit:before {
-  content: "\e9a7";
+.icon-codefresh-chat:before {
+  content: "\e9af";
 }
-.icon-codefresh-billing:before {
-  content: "\e9a8";
+.icon-codefresh-terminated-2 .path1:before {
+  content: "\e9ac";
+  color: rgb(0, 0, 0);
 }
-.icon-codefresh-permission:before {
-  content: "\e9a9";
+.icon-codefresh-terminated-2 .path2:before {
+  content: "\e9ad";
+  margin-left: -0.9599609375em;
+  color: rgb(255, 255, 255);
 }
-.icon-codefresh-pipeline-settings:before {
-  content: "\e9aa";
+.icon-codefresh-terminated-2 .path3:before {
+  content: "\e9ae";
+  margin-left: -0.9599609375em;
+  color: rgb(255, 255, 255);
 }
-.icon-codefresh-runner:before {
+.icon-codefresh-commit:before {
   content: "\e9ab";
 }
-.icon-codefresh-gcsr:before {
-  content: "\e9ac";
+.icon-codefresh-check-circle:before {
+  content: "\e9aa";
+}
+.icon-codefresh-circle-plus:before {
+  content: "\e9a8";
+}
+.icon-codefresh-computer-connect:before {
+  content: "\e9a9";
+}
+.icon-codefresh-disconnect:before {
+  content: "\e9a6";
+}
+.icon-codefresh-stop:before {
+  content: "\e9a7";
 }
 .icon-codefresh-chain:before {
   content: "\e9a5";
@@ -344,7 +361,7 @@
 .icon-codefresh-docker-swarm2:before {
   content: "\e942";
 }
-.icon-codefresh-billing1:before {
+.icon-codefresh-billing:before {
   content: "\e940";
 }
 .icon-codefresh-integrations:before {
