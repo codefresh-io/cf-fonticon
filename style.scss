@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?4cb925');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?4cb925#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?4cb925') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?4cb925') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?4cb925##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?gbf42v');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?gbf42v#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?gbf42v') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?gbf42v') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?gbf42v##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,64 +27,39 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-codefresh-history {
+.icon-codefresh-accountInfo {
   &:before {
-    content: $icon-codefresh-history; 
+    content: $icon-codefresh-accountInfo; 
   }
 }
-.icon-codefresh-chat {
+.icon-codefresh-audit {
   &:before {
-    content: $icon-codefresh-chat; 
+    content: $icon-codefresh-audit; 
   }
 }
-.icon-codefresh-terminated-2 .path1 {
+.icon-codefresh-billing {
   &:before {
-    content: $icon-codefresh-terminated-2-path1;  
-    color: rgb(0, 0, 0);
+    content: $icon-codefresh-billing; 
   }
 }
-.icon-codefresh-terminated-2 .path2 {
+.icon-codefresh-permission {
   &:before {
-    content: $icon-codefresh-terminated-2-path2;  
-    margin-left: -0.9599609375em;  
-    color: rgb(255, 255, 255);
+    content: $icon-codefresh-permission; 
   }
 }
-.icon-codefresh-terminated-2 .path3 {
+.icon-codefresh-pipeline-settings {
   &:before {
-    content: $icon-codefresh-terminated-2-path3;  
-    margin-left: -0.9599609375em;  
-    color: rgb(255, 255, 255);
+    content: $icon-codefresh-pipeline-settings; 
   }
 }
-.icon-codefresh-commit {
+.icon-codefresh-runner {
   &:before {
-    content: $icon-codefresh-commit; 
+    content: $icon-codefresh-runner; 
   }
 }
-.icon-codefresh-check-circle {
+.icon-codefresh-gcsr {
   &:before {
-    content: $icon-codefresh-check-circle; 
-  }
-}
-.icon-codefresh-circle-plus {
-  &:before {
-    content: $icon-codefresh-circle-plus; 
-  }
-}
-.icon-codefresh-computer-connect {
-  &:before {
-    content: $icon-codefresh-computer-connect; 
-  }
-}
-.icon-codefresh-disconnect {
-  &:before {
-    content: $icon-codefresh-disconnect; 
-  }
-}
-.icon-codefresh-stop {
-  &:before {
-    content: $icon-codefresh-stop; 
+    content: $icon-codefresh-gcsr; 
   }
 }
 .icon-codefresh-chain {
@@ -583,9 +558,9 @@
     content: $icon-codefresh-docker-swarm2; 
   }
 }
-.icon-codefresh-billing {
+.icon-codefresh-billing1 {
   &:before {
-    content: $icon-codefresh-billing; 
+    content: $icon-codefresh-billing1; 
   }
 }
 .icon-codefresh-integrations {
