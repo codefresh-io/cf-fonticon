@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'codefresh';
-  src:  url('fonts/codefresh.eot?tn7evp');
-  src:  url('fonts/codefresh.eot?tn7evp#iefix') format('embedded-opentype'),
-    url('fonts/codefresh.ttf?tn7evp') format('truetype'),
-    url('fonts/codefresh.woff?tn7evp') format('woff'),
-    url('fonts/codefresh.svg?tn7evp#codefresh') format('svg');
+  src:  url('fonts/codefresh.eot?iguys4');
+  src:  url('fonts/codefresh.eot?iguys4#iefix') format('embedded-opentype'),
+    url('fonts/codefresh.ttf?iguys4') format('truetype'),
+    url('fonts/codefresh.woff?iguys4') format('woff'),
+    url('fonts/codefresh.svg?iguys4#codefresh') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,8 +25,23 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-codefresh-audit-2:before {
+.icon-codefresh-audit-21:before {
   content: "\e9b3";
+}
+.icon-codefresh-billing-2:before {
+  content: "\e9b4";
+}
+.icon-codefresh-permission-2:before {
+  content: "\e9b5";
+}
+.icon-codefresh-pipeline-settings:before {
+  content: "\e9b6";
+}
+.icon-codefresh-runner:before {
+  content: "\e9b7";
+}
+.icon-codefresh-audit-2:before {
+  content: "\e9b8";
 }
 .icon-codefresh-account-info:before {
   content: "\e9b2";
