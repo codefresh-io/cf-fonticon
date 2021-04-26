@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'codefresh';
-  src:  url('fonts/codefresh.eot?8s2rb0');
-  src:  url('fonts/codefresh.eot?8s2rb0#iefix') format('embedded-opentype'),
-    url('fonts/codefresh.ttf?8s2rb0') format('truetype'),
-    url('fonts/codefresh.woff?8s2rb0') format('woff'),
-    url('fonts/codefresh.svg?8s2rb0#codefresh') format('svg');
+  src:  url('fonts/codefresh.eot?o25p9o');
+  src:  url('fonts/codefresh.eot?o25p9o#iefix') format('embedded-opentype'),
+    url('fonts/codefresh.ttf?o25p9o') format('truetype'),
+    url('fonts/codefresh.woff?o25p9o') format('woff'),
+    url('fonts/codefresh.svg?o25p9o#codefresh') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,81 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-codefresh-k8s-cron-job:before {
+  content: "\e9bd";
+}
+.icon-codefresh-k8s-pod:before {
+  content: "\e9be";
+}
+.icon-codefresh-k8s-job:before {
+  content: "\e9bf";
+}
+.icon-codefresh-k8s-deployment:before {
+  content: "\e9c0";
+}
+.icon-codefresh-k8s-stateful-set:before {
+  content: "\e9c1";
+}
+.icon-codefresh-k8s-replica-set:before {
+  content: "\e9c2";
+}
+.icon-codefresh-k8s-config-map:before {
+  content: "\e9c3";
+}
+.icon-codefresh-k8s-daemon-set:before {
+  content: "\e9c4";
+}
+.icon-codefresh-k8s-secret:before {
+  content: "\e9c5";
+}
+.icon-codefresh-k8s-custom-resource-definition:before {
+  content: "\e9c6";
+}
+.icon-codefresh-k8s-role-binding:before {
+  content: "\e9c7";
+}
+.icon-codefresh-k8s-pod-security-policy:before {
+  content: "\e9c8";
+}
+.icon-codefresh-k8s-group:before {
+  content: "\e9c9";
+}
+.icon-codefresh-k8s-network-policy:before {
+  content: "\e9ca";
+}
+.icon-codefresh-k8s-role:before {
+  content: "\e9cb";
+}
+.icon-codefresh-k8s-cluster-role-binding:before {
+  content: "\e9cc";
+}
+.icon-codefresh-k8s-cluster-role:before {
+  content: "\e9cd";
+}
+.icon-codefresh-k8s-user:before {
+  content: "\e9ce";
+}
+.icon-codefresh-k8s-service-account:before {
+  content: "\e9cf";
+}
+.icon-codefresh-k8s-endpoint:before {
+  content: "\e9d0";
+}
+.icon-codefresh-k8s-service:before {
+  content: "\e9d1";
+}
+.icon-codefresh-k8s-ingress:before {
+  content: "\e9d2";
+}
+.icon-codefresh-k8s-storage-class:before {
+  content: "\e9d3";
+}
+.icon-codefresh-k8s-persistent-volume-claim:before {
+  content: "\e9d4";
+}
+.icon-codefresh-k8s-persistent-volume:before {
+  content: "\e9bc";
+}
 .icon-codefresh-gitopssettings-2:before {
   content: "\e9bb";
 }
