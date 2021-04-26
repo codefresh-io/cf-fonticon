@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?8s2rb0');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?8s2rb0#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?8s2rb0') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?8s2rb0') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?8s2rb0##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?o25p9o');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?o25p9o#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?o25p9o') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?o25p9o') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?o25p9o##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,6 +27,131 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-codefresh-k8s-cron-job {
+  &:before {
+    content: $icon-codefresh-k8s-cron-job; 
+  }
+}
+.icon-codefresh-k8s-pod {
+  &:before {
+    content: $icon-codefresh-k8s-pod; 
+  }
+}
+.icon-codefresh-k8s-job {
+  &:before {
+    content: $icon-codefresh-k8s-job; 
+  }
+}
+.icon-codefresh-k8s-deployment {
+  &:before {
+    content: $icon-codefresh-k8s-deployment; 
+  }
+}
+.icon-codefresh-k8s-stateful-set {
+  &:before {
+    content: $icon-codefresh-k8s-stateful-set; 
+  }
+}
+.icon-codefresh-k8s-replica-set {
+  &:before {
+    content: $icon-codefresh-k8s-replica-set; 
+  }
+}
+.icon-codefresh-k8s-config-map {
+  &:before {
+    content: $icon-codefresh-k8s-config-map; 
+  }
+}
+.icon-codefresh-k8s-daemon-set {
+  &:before {
+    content: $icon-codefresh-k8s-daemon-set; 
+  }
+}
+.icon-codefresh-k8s-secret {
+  &:before {
+    content: $icon-codefresh-k8s-secret; 
+  }
+}
+.icon-codefresh-k8s-custom-resource-definition {
+  &:before {
+    content: $icon-codefresh-k8s-custom-resource-definition; 
+  }
+}
+.icon-codefresh-k8s-role-binding {
+  &:before {
+    content: $icon-codefresh-k8s-role-binding; 
+  }
+}
+.icon-codefresh-k8s-pod-security-policy {
+  &:before {
+    content: $icon-codefresh-k8s-pod-security-policy; 
+  }
+}
+.icon-codefresh-k8s-group {
+  &:before {
+    content: $icon-codefresh-k8s-group; 
+  }
+}
+.icon-codefresh-k8s-network-policy {
+  &:before {
+    content: $icon-codefresh-k8s-network-policy; 
+  }
+}
+.icon-codefresh-k8s-role {
+  &:before {
+    content: $icon-codefresh-k8s-role; 
+  }
+}
+.icon-codefresh-k8s-cluster-role-binding {
+  &:before {
+    content: $icon-codefresh-k8s-cluster-role-binding; 
+  }
+}
+.icon-codefresh-k8s-cluster-role {
+  &:before {
+    content: $icon-codefresh-k8s-cluster-role; 
+  }
+}
+.icon-codefresh-k8s-user {
+  &:before {
+    content: $icon-codefresh-k8s-user; 
+  }
+}
+.icon-codefresh-k8s-service-account {
+  &:before {
+    content: $icon-codefresh-k8s-service-account; 
+  }
+}
+.icon-codefresh-k8s-endpoint {
+  &:before {
+    content: $icon-codefresh-k8s-endpoint; 
+  }
+}
+.icon-codefresh-k8s-service {
+  &:before {
+    content: $icon-codefresh-k8s-service; 
+  }
+}
+.icon-codefresh-k8s-ingress {
+  &:before {
+    content: $icon-codefresh-k8s-ingress; 
+  }
+}
+.icon-codefresh-k8s-storage-class {
+  &:before {
+    content: $icon-codefresh-k8s-storage-class; 
+  }
+}
+.icon-codefresh-k8s-persistent-volume-claim {
+  &:before {
+    content: $icon-codefresh-k8s-persistent-volume-claim; 
+  }
+}
+.icon-codefresh-k8s-persistent-volume {
+  &:before {
+    content: $icon-codefresh-k8s-persistent-volume; 
+  }
+}
 .icon-codefresh-gitopssettings-2 {
   &:before {
     content: $icon-codefresh-gitopssettings-2; 
