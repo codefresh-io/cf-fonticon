@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'codefresh';
-  src:  url('fonts/codefresh.eot?lq2ey6');
-  src:  url('fonts/codefresh.eot?lq2ey6#iefix') format('embedded-opentype'),
-    url('fonts/codefresh.ttf?lq2ey6') format('truetype'),
-    url('fonts/codefresh.woff?lq2ey6') format('woff'),
-    url('fonts/codefresh.svg?lq2ey6#codefresh') format('svg');
+  src:  url('fonts/codefresh.eot?rrv0ug');
+  src:  url('fonts/codefresh.eot?rrv0ug#iefix') format('embedded-opentype'),
+    url('fonts/codefresh.ttf?rrv0ug') format('truetype'),
+    url('fonts/codefresh.woff?rrv0ug') format('woff'),
+    url('fonts/codefresh.svg?rrv0ug#codefresh') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-codefresh-execution-context-2:before {
+  content: "\e9d7";
+}
 .icon-codefresh-tags:before {
   content: "\e9d6";
 }
@@ -51,9 +54,6 @@
 }
 .icon-codefresh-k8s-config-map:before {
   content: "\e9c3";
-}
-.icon-codefresh-k8s-daemon-set:before {
-  content: "\e9c4";
 }
 .icon-codefresh-k8s-secret:before {
   content: "\e9c5";
