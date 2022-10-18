@@ -1,18 +1,18 @@
 @font-face {
-  font-family: 'codefresh';
-  src:  url('fonts/codefresh.eot?up1th5');
-  src:  url('fonts/codefresh.eot?up1th5#iefix') format('embedded-opentype'),
-    url('fonts/codefresh.ttf?up1th5') format('truetype'),
-    url('fonts/codefresh.woff?up1th5') format('woff'),
-    url('fonts/codefresh.svg?up1th5#codefresh') format('svg');
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?jtmnmr');
+  src:  url('fonts/icomoon.eot?jtmnmr#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?jtmnmr') format('truetype'),
+    url('fonts/icomoon.woff?jtmnmr') format('woff'),
+    url('fonts/icomoon.svg?jtmnmr#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="icon-codefresh-"], [class*=" icon-codefresh-"] {
+[class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'codefresh' !important;
+  font-family: 'icomoon' !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -25,832 +25,838 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-codefresh-light-bent-top-right-arrow:before {
+.icon-file-text:before {
+  content: "\e9da";
+}
+.icon-file-html:before {
+  content: "\e9d9";
+}
+.icon-light-bent-top-right-arrow:before {
   content: "\e9d8";
 }
-.icon-codefresh-execution-context-2:before {
+.icon-execution-context-2:before {
   content: "\e9d7";
 }
-.icon-codefresh-tags:before {
+.icon-tags:before {
   content: "\e9d6";
 }
-.icon-codefresh-execution-context:before {
+.icon-execution-context:before {
   content: "\e9d5";
 }
-.icon-codefresh-k8s-cron-job:before {
+.icon-k8s-cron-job:before {
   content: "\e9bd";
 }
-.icon-codefresh-k8s-pod:before {
+.icon-k8s-pod:before {
   content: "\e9be";
 }
-.icon-codefresh-k8s-job:before {
+.icon-k8s-job:before {
   content: "\e9bf";
 }
-.icon-codefresh-k8s-deployment:before {
+.icon-k8s-deployment:before {
   content: "\e9c0";
 }
-.icon-codefresh-k8s-stateful-set:before {
+.icon-k8s-stateful-set:before {
   content: "\e9c1";
 }
-.icon-codefresh-k8s-replica-set:before {
+.icon-k8s-replica-set:before {
   content: "\e9c2";
 }
-.icon-codefresh-k8s-config-map:before {
+.icon-k8s-config-map:before {
   content: "\e9c3";
 }
-.icon-codefresh-k8s-daemon-set:before {
+.icon-k8s-daemon-set:before {
   content: "\e9c4";
 }
-.icon-codefresh-k8s-secret:before {
+.icon-k8s-secret:before {
   content: "\e9c5";
 }
-.icon-codefresh-k8s-custom-resource-definition:before {
+.icon-k8s-custom-resource-definition:before {
   content: "\e9c6";
 }
-.icon-codefresh-k8s-role-binding:before {
+.icon-k8s-role-binding:before {
   content: "\e9c7";
 }
-.icon-codefresh-k8s-pod-security-policy:before {
+.icon-k8s-pod-security-policy:before {
   content: "\e9c8";
 }
-.icon-codefresh-k8s-group:before {
+.icon-k8s-group:before {
   content: "\e9c9";
 }
-.icon-codefresh-k8s-network-policy:before {
+.icon-k8s-network-policy:before {
   content: "\e9ca";
 }
-.icon-codefresh-k8s-role:before {
+.icon-k8s-role:before {
   content: "\e9cb";
 }
-.icon-codefresh-k8s-cluster-role-binding:before {
+.icon-k8s-cluster-role-binding:before {
   content: "\e9cc";
 }
-.icon-codefresh-k8s-cluster-role:before {
+.icon-k8s-cluster-role:before {
   content: "\e9cd";
 }
-.icon-codefresh-k8s-user:before {
+.icon-k8s-user:before {
   content: "\e9ce";
 }
-.icon-codefresh-k8s-service-account:before {
+.icon-k8s-service-account:before {
   content: "\e9cf";
 }
-.icon-codefresh-k8s-endpoint:before {
+.icon-k8s-endpoint:before {
   content: "\e9d0";
 }
-.icon-codefresh-k8s-service:before {
+.icon-k8s-service:before {
   content: "\e9d1";
 }
-.icon-codefresh-k8s-ingress:before {
+.icon-k8s-ingress:before {
   content: "\e9d2";
 }
-.icon-codefresh-k8s-storage-class:before {
+.icon-k8s-storage-class:before {
   content: "\e9d3";
 }
-.icon-codefresh-k8s-persistent-volume-claim:before {
+.icon-k8s-persistent-volume-claim:before {
   content: "\e9d4";
 }
-.icon-codefresh-k8s-persistent-volume:before {
+.icon-k8s-persistent-volume:before {
   content: "\e9bc";
 }
-.icon-codefresh-gitopssettings-2:before {
+.icon-gitopssettings-2:before {
   content: "\e9bb";
 }
-.icon-codefresh-help:before {
+.icon-help:before {
   content: "\e9ba";
 }
-.icon-codefresh-runner:before {
+.icon-runner:before {
   content: "\e9b5";
 }
-.icon-codefresh-permission-2:before {
+.icon-permission-2:before {
   content: "\e9b6";
 }
-.icon-codefresh-audit-2:before {
+.icon-audit-2:before {
   content: "\e9b7";
 }
-.icon-codefresh-pipeline-settings:before {
+.icon-pipeline-settings:before {
   content: "\e9b8";
 }
-.icon-codefresh-billing-2:before {
+.icon-billing-2:before {
   content: "\e9b9";
 }
-.icon-codefresh-rounded-rect:before {
+.icon-rounded-rect:before {
   content: "\e9b4";
 }
-.icon-codefresh-downward-arrow:before {
+.icon-downward-arrow:before {
   content: "\e9b3";
 }
-.icon-codefresh-account-info:before {
+.icon-account-info:before {
   content: "\e9b2";
 }
-.icon-codefresh-gitops:before {
+.icon-gitops:before {
   content: "\e9b1";
 }
-.icon-codefresh-history:before {
+.icon-history:before {
   content: "\e9b0";
 }
-.icon-codefresh-chat:before {
+.icon-chat:before {
   content: "\e9af";
 }
-.icon-codefresh-terminated-2 .path1:before {
+.icon-terminated-2 .path1:before {
   content: "\e9ac";
   color: rgb(0, 0, 0);
 }
-.icon-codefresh-terminated-2 .path2:before {
+.icon-terminated-2 .path2:before {
   content: "\e9ad";
   margin-left: -0.9599609375em;
   color: rgb(255, 255, 255);
 }
-.icon-codefresh-terminated-2 .path3:before {
+.icon-terminated-2 .path3:before {
   content: "\e9ae";
   margin-left: -0.9599609375em;
   color: rgb(255, 255, 255);
 }
-.icon-codefresh-commit:before {
+.icon-commit:before {
   content: "\e9ab";
 }
-.icon-codefresh-check-circle:before {
+.icon-check-circle:before {
   content: "\e9aa";
 }
-.icon-codefresh-circle-plus:before {
+.icon-circle-plus:before {
   content: "\e9a8";
 }
-.icon-codefresh-computer-connect:before {
+.icon-computer-connect:before {
   content: "\e9a9";
 }
-.icon-codefresh-disconnect:before {
+.icon-disconnect:before {
   content: "\e9a6";
 }
-.icon-codefresh-stop:before {
+.icon-stop:before {
   content: "\e9a7";
 }
-.icon-codefresh-chain:before {
+.icon-chain:before {
   content: "\e9a5";
 }
-.icon-codefresh-manage-entity:before {
+.icon-manage-entity:before {
   content: "\e9a4";
 }
-.icon-codefresh-repository:before {
+.icon-repository:before {
   content: "\e9a3";
 }
-.icon-codefresh-activated:before {
+.icon-activated:before {
   content: "\e9a2";
 }
-.icon-codefresh-exclamation-shield:before {
+.icon-exclamation-shield:before {
   content: "\e9a1";
 }
-.icon-codefresh-shield-user:before {
+.icon-shield-user:before {
   content: "\e9a0";
 }
-.icon-codefresh-helm3:before {
+.icon-helm3:before {
   content: "\e99e";
 }
-.icon-codefresh-helm2:before {
+.icon-helm2:before {
   content: "\e99f";
 }
-.icon-codefresh-rollback:before {
+.icon-rollback:before {
   content: "\e99d";
 }
-.icon-codefresh-light-trigger:before {
+.icon-light-trigger:before {
   content: "\e99c";
 }
-.icon-codefresh-light-circle-left-arrow:before {
+.icon-light-circle-left-arrow:before {
   content: "\e997";
 }
-.icon-codefresh-light-bent-right-down-arrow:before {
+.icon-light-bent-right-down-arrow:before {
   content: "\e998";
 }
-.icon-codefresh-light-calendar:before {
+.icon-light-calendar:before {
   content: "\e999";
 }
-.icon-codefresh-light-hourglass:before {
+.icon-light-hourglass:before {
   content: "\e99a";
 }
-.icon-codefresh-light-timer:before {
+.icon-light-timer:before {
   content: "\e99b";
 }
-.icon-codefresh-payload:before {
+.icon-payload:before {
   content: "\e994";
 }
-.icon-codefresh-variable:before {
+.icon-variable:before {
   content: "\e995";
 }
-.icon-codefresh-todo:before {
+.icon-todo:before {
   content: "\e996";
 }
-.icon-codefresh-note:before {
+.icon-note:before {
   content: "\e993";
 }
-.icon-codefresh-upward-arrow:before {
+.icon-upward-arrow:before {
   content: "\e992";
 }
-.icon-codefresh-trash-2:before {
+.icon-trash-2:before {
   content: "\e991";
 }
-.icon-codefresh-filter:before {
+.icon-filter:before {
   content: "\e990";
 }
-.icon-codefresh-full-logs:before {
+.icon-full-logs:before {
   content: "\e98f";
 }
-.icon-codefresh-steps-tab:before {
+.icon-steps-tab:before {
   content: "\e98e";
 }
-.icon-codefresh-official-plugin:before {
+.icon-official-plugin:before {
   content: "\e98d";
 }
-.icon-codefresh-eye:before {
+.icon-eye:before {
   content: "\e98c";
 }
-.icon-codefresh-christmas-star:before {
+.icon-christmas-star:before {
   content: "\e98b";
 }
-.icon-codefresh-contact-suuport:before {
+.icon-contact-suuport:before {
   content: "\e98a";
 }
-.icon-codefresh-community:before {
+.icon-community:before {
   content: "\e989";
   color: #4c4c4c;
 }
-.icon-codefresh-server:before {
+.icon-server:before {
   content: "\e988";
 }
-.icon-codefresh-crown:before {
+.icon-crown:before {
   content: "\e987";
 }
-.icon-codefresh-icons8-paragraph:before {
+.icon-icons8-paragraph:before {
   content: "\e982";
 }
-.icon-codefresh-hash-comment:before {
+.icon-hash-comment:before {
   content: "\e983";
 }
-.icon-codefresh-expand:before {
+.icon-expand:before {
   content: "\e984";
 }
-.icon-codefresh-download-yaml:before {
+.icon-download-yaml:before {
   content: "\e985";
 }
-.icon-codefresh-copy:before {
+.icon-copy:before {
   content: "\e986";
 }
-.icon-codefresh-paragraph:before {
+.icon-paragraph:before {
   content: "\e981";
 }
-.icon-codefresh-lock-decrypted:before {
+.icon-lock-decrypted:before {
   content: "\e980";
 }
-.icon-codefresh-star-favorite:before {
+.icon-star-favorite:before {
   content: "\e97f";
 }
-.icon-codefresh-external-link:before {
+.icon-external-link:before {
   content: "\e97e";
 }
-.icon-codefresh-sort-asc:before {
+.icon-sort-asc:before {
   content: "\e97b";
 }
-.icon-codefresh-sort-desc:before {
+.icon-sort-desc:before {
   content: "\e97c";
 }
-.icon-codefresh-sort-default:before {
+.icon-sort-default:before {
   content: "\e97d";
 }
-.icon-codefresh-icon-custom-pipeline:before {
+.icon-icon-custom-pipeline:before {
   content: "\e97a";
 }
-.icon-codefresh-icon-warning-filled:before {
+.icon-icon-warning-filled:before {
   content: "\e979";
 }
-.icon-codefresh-build-timeline:before {
+.icon-build-timeline:before {
   content: "\e978";
 }
-.icon-codefresh-shared-square:before {
+.icon-shared-square:before {
   content: "\e977";
 }
-.icon-codefresh-regular-trash:before {
+.icon-regular-trash:before {
   content: "\e976";
 }
-.icon-codefresh-file:before {
+.icon-file:before {
   content: "\e972";
 }
-.icon-codefresh-more-circles:before {
+.icon-more-circles:before {
   content: "\e973";
 }
-.icon-codefresh-regular-pencil:before {
+.icon-regular-pencil:before {
   content: "\e974";
 }
-.icon-codefresh-text:before {
+.icon-text:before {
   content: "\e975";
 }
-.icon-codefresh-regular-list:before {
+.icon-regular-list:before {
   content: "\e971";
 }
-.icon-codefresh-actions-copy:before {
+.icon-actions-copy:before {
   content: "\e970";
 }
-.icon-codefresh-actions-template:before {
+.icon-actions-template:before {
   content: "\e96f";
 }
-.icon-codefresh-actions-marketplace:before {
+.icon-actions-marketplace:before {
   content: "\e96e";
 }
-.icon-codefresh-menu-environments:before {
+.icon-menu-environments:before {
   content: "\e96d";
 }
-.icon-codefresh-boards:before {
+.icon-boards:before {
   content: "\e96c";
 }
-.icon-codefresh-image-logs:before {
+.icon-image-logs:before {
   content: "\e96b";
 }
-.icon-codefresh-build-metric:before {
+.icon-build-metric:before {
   content: "\e96a";
 }
-.icon-codefresh-confirmation-warning:before {
+.icon-confirmation-warning:before {
   content: "\e969";
 }
-.icon-codefresh-behind-firewall:before {
+.icon-behind-firewall:before {
   content: "\e968";
 }
-.icon-codefresh-thumb-down:before {
+.icon-thumb-down:before {
   content: "\e966";
 }
-.icon-codefresh-thumb-up:before {
+.icon-thumb-up:before {
   content: "\e967";
 }
-.icon-codefresh-build-debug:before {
+.icon-build-debug:before {
   content: "\e95b";
 }
-.icon-codefresh-build-output:before {
+.icon-build-output:before {
   content: "\e95c";
 }
-.icon-codefresh-build-state:before {
+.icon-build-state:before {
   content: "\e964";
 }
-.icon-codefresh-build-yaml:before {
+.icon-build-yaml:before {
   content: "\e965";
 }
-.icon-codefresh-approved:before {
+.icon-approved:before {
   content: "\e959";
 }
-.icon-codefresh-denied:before {
+.icon-denied:before {
   content: "\e95a";
 }
-.icon-codefresh-pending-approval:before {
+.icon-pending-approval:before {
   content: "\e906";
 }
-.icon-codefresh-projects-tab:before {
+.icon-projects-tab:before {
   content: "\e963";
 }
-.icon-codefresh-leaves:before {
+.icon-leaves:before {
   content: "\e962";
 }
-.icon-codefresh-account-nodes-menu:before {
+.icon-account-nodes-menu:before {
   content: "\e961";
 }
-.icon-codefresh-account-nodes:before {
+.icon-account-nodes:before {
   content: "\e960";
 }
-.icon-codefresh-account-runtime-environments:before {
+.icon-account-runtime-environments:before {
   content: "\e95f";
 }
-.icon-codefresh-account-sso:before {
+.icon-account-sso:before {
   content: "\e95e";
 }
-.icon-codefresh-account-arrow-left:before {
+.icon-account-arrow-left:before {
   content: "\e95d";
 }
-.icon-codefresh-account-teams-2:before {
+.icon-account-teams-2:before {
   content: "\e956";
 }
-.icon-codefresh-account-invoices:before {
+.icon-account-invoices:before {
   content: "\e955";
 }
-.icon-codefresh-account-plans:before {
+.icon-account-plans:before {
   content: "\e954";
 }
-.icon-codefresh-account-permissions:before {
+.icon-account-permissions:before {
   content: "\e953";
 }
-.icon-codefresh-account-teams:before {
+.icon-account-teams:before {
   content: "\e952";
 }
-.icon-codefresh-account-registry:before {
+.icon-account-registry:before {
   content: "\e951";
 }
-.icon-codefresh-account-notifications:before {
+.icon-account-notifications:before {
   content: "\e950";
 }
-.icon-codefresh-account-tokens:before {
+.icon-account-tokens:before {
   content: "\e94f";
 }
-.icon-codefresh-account-shared:before {
+.icon-account-shared:before {
   content: "\e94e";
 }
-.icon-codefresh-account-referals:before {
+.icon-account-referals:before {
   content: "\e94d";
 }
-.icon-codefresh-account-profile:before {
+.icon-account-profile:before {
   content: "\e94c";
 }
-.icon-codefresh-profile-logout:before {
+.icon-profile-logout:before {
   content: "\e94b";
 }
-.icon-codefresh-profile-configuration:before {
+.icon-profile-configuration:before {
   content: "\e94a";
 }
-.icon-codefresh-profile-accounts-settings:before {
+.icon-profile-accounts-settings:before {
   content: "\e949";
 }
-.icon-codefresh-accounts:before {
+.icon-accounts:before {
   content: "\e948";
 }
-.icon-codefresh-terminated:before {
+.icon-terminated:before {
   content: "\e947";
 }
-.icon-codefresh-skip:before {
+.icon-skip:before {
   content: "\e946";
 }
-.icon-codefresh-vm-grid:before {
+.icon-vm-grid:before {
   content: "\e944";
 }
-.icon-codefresh-vm-list:before {
+.icon-vm-list:before {
   content: "\e945";
 }
-.icon-codefresh-azure:before {
+.icon-azure:before {
   content: "\e943";
 }
-.icon-codefresh-docker-swarm2:before {
+.icon-docker-swarm2:before {
   content: "\e942";
 }
-.icon-codefresh-billing:before {
+.icon-billing:before {
   content: "\e940";
 }
-.icon-codefresh-integrations:before {
+.icon-integrations:before {
   content: "\e941";
 }
-.icon-codefresh-larr:before {
+.icon-larr:before {
   content: "\e93d";
 }
-.icon-codefresh-rarr:before {
+.icon-rarr:before {
   content: "\e93e";
 }
-.icon-codefresh-user-settings2:before {
+.icon-user-settings2:before {
   content: "\e933";
 }
-.icon-codefresh-images-cube:before {
+.icon-images-cube:before {
   content: "\e93a";
 }
-.icon-codefresh-k8s:before {
+.icon-k8s:before {
   content: "\e93b";
 }
-.icon-codefresh-pipelines:before {
+.icon-pipelines:before {
   content: "\e93c";
 }
-.icon-codefresh-repositories:before {
+.icon-repositories:before {
   content: "\e93f";
 }
-.icon-codefresh-tutorials:before {
+.icon-tutorials:before {
   content: "\e932";
 }
-.icon-codefresh-icon-status:before {
+.icon-icon-status:before {
   content: "\e92d";
 }
-.icon-codefresh-docs:before {
+.icon-docs:before {
   content: "\e92e";
 }
-.icon-codefresh-examples:before {
+.icon-examples:before {
   content: "\e92f";
 }
-.icon-codefresh-star:before {
+.icon-star:before {
   content: "\e930";
 }
-.icon-codefresh-troubleshooting:before {
+.icon-troubleshooting:before {
   content: "\e931";
 }
-.icon-codefresh-docker-swarm:before {
+.icon-docker-swarm:before {
   content: "\e92c";
 }
-.icon-codefresh-lightning:before {
+.icon-lightning:before {
   content: "\e92b";
 }
-.icon-codefresh-hamburger:before {
+.icon-hamburger:before {
   content: "\e925";
 }
-.icon-codefresh-ok-strong:before {
+.icon-ok-strong:before {
   content: "\e922";
 }
-.icon-codefresh-error:before {
+.icon-error:before {
   content: "\e923";
 }
-.icon-codefresh-hourglass:before {
+.icon-hourglass:before {
   content: "\e924";
 }
-.icon-codefresh-single-image:before {
+.icon-single-image:before {
   content: "\e920";
 }
-.icon-codefresh-yml:before {
+.icon-yml:before {
   content: "\e921";
 }
-.icon-codefresh-logo:before {
+.icon-logo:before {
   content: "\e91f";
 }
-.icon-codefresh-docker-logo-white .path1:before {
+.icon-docker-logo-white .path1:before {
   content: "\e914";
   color: rgb(0, 0, 0);
 }
-.icon-codefresh-docker-logo-white .path2:before {
+.icon-docker-logo-white .path2:before {
   content: "\e915";
   margin-left: -1.099609375em;
   color: rgb(255, 255, 255);
 }
-.icon-codefresh-docker-logo-white .path3:before {
+.icon-docker-logo-white .path3:before {
   content: "\e916";
   margin-left: -1.099609375em;
   color: rgb(255, 255, 255);
 }
-.icon-codefresh-docker-logo-white .path4:before {
+.icon-docker-logo-white .path4:before {
   content: "\e917";
   margin-left: -1.099609375em;
   color: rgb(255, 255, 255);
 }
-.icon-codefresh-docker-logo-white .path5:before {
+.icon-docker-logo-white .path5:before {
   content: "\e918";
   margin-left: -1.099609375em;
   color: rgb(255, 255, 255);
 }
-.icon-codefresh-docker-logo-white .path6:before {
+.icon-docker-logo-white .path6:before {
   content: "\e919";
   margin-left: -1.099609375em;
   color: rgb(255, 255, 255);
 }
-.icon-codefresh-docker-logo-white .path7:before {
+.icon-docker-logo-white .path7:before {
   content: "\e91a";
   margin-left: -1.099609375em;
   color: rgb(255, 255, 255);
 }
-.icon-codefresh-docker-logo-white .path8:before {
+.icon-docker-logo-white .path8:before {
   content: "\e91b";
   margin-left: -1.099609375em;
   color: rgb(255, 255, 255);
 }
-.icon-codefresh-docker-logo-white .path9:before {
+.icon-docker-logo-white .path9:before {
   content: "\e91c";
   margin-left: -1.099609375em;
   color: rgb(255, 255, 255);
 }
-.icon-codefresh-docker-logo-white .path10:before {
+.icon-docker-logo-white .path10:before {
   content: "\e91d";
   margin-left: -1.099609375em;
   color: rgb(255, 255, 255);
 }
-.icon-codefresh-docker-logo-white .path11:before {
+.icon-docker-logo-white .path11:before {
   content: "\e91e";
   margin-left: -1.099609375em;
   color: rgb(255, 255, 255);
 }
-.icon-codefresh-docker-logo-white .path12:before {
+.icon-docker-logo-white .path12:before {
   content: "\e957";
   margin-left: -1.099609375em;
   color: rgb(0, 0, 0);
 }
-.icon-codefresh-docker-logo-white .path13:before {
+.icon-docker-logo-white .path13:before {
   content: "\e958";
   margin-left: -1.099609375em;
   color: rgb(255, 255, 255);
 }
-.icon-codefresh-docker-logo-transparent:before {
+.icon-docker-logo-transparent:before {
   content: "\e905";
 }
-.icon-codefresh-un-trash:before {
+.icon-un-trash:before {
   content: "\e904";
 }
-.icon-codefresh-icon-info:before {
+.icon-icon-info:before {
   content: "\e901";
 }
-.icon-codefresh-icon-warning:before {
+.icon-icon-warning:before {
   content: "\e902";
 }
-.icon-codefresh-account-managment:before {
+.icon-account-managment:before {
   content: "\61";
 }
-.icon-codefresh-activity-log:before {
+.icon-activity-log:before {
   content: "\62";
 }
-.icon-codefresh-add-layer:before {
+.icon-add-layer:before {
   content: "\63";
 }
-.icon-codefresh-arrow-right:before {
+.icon-arrow-right:before {
   content: "\52";
 }
-.icon-codefresh-arrow_5:before {
+.icon-arrow_5:before {
   content: "\53";
 }
-.icon-codefresh-builds-2:before {
+.icon-builds-2:before {
   content: "\57";
 }
-.icon-codefresh-chebron-r:before {
+.icon-chebron-r:before {
   content: "\e903";
 }
-.icon-codefresh-code:before {
+.icon-code:before {
   content: "\64";
 }
-.icon-codefresh-composition:before {
+.icon-composition:before {
   content: "\65";
 }
-.icon-codefresh-compositions-2:before {
+.icon-compositions-2:before {
   content: "\58";
 }
-.icon-codefresh-computer:before {
+.icon-computer:before {
   content: "\66";
 }
-.icon-codefresh-copy-docker-pull:before {
+.icon-copy-docker-pull:before {
   content: "\67";
 }
-.icon-codefresh-created:before {
+.icon-created:before {
   content: "\68";
 }
-.icon-codefresh-date:before {
+.icon-date:before {
   content: "\69";
 }
-.icon-codefresh-docker-logo:before {
+.icon-docker-logo:before {
   content: "\6a";
 }
-.icon-codefresh-download:before {
+.icon-download:before {
   content: "\6b";
 }
-.icon-codefresh-edit-pencil:before {
+.icon-edit-pencil:before {
   content: "\6c";
 }
-.icon-codefresh-enviroments-2:before {
+.icon-enviroments-2:before {
   content: "\59";
 }
-.icon-codefresh-environments:before {
+.icon-environments:before {
   content: "\6d";
 }
-.icon-codefresh-example:before {
+.icon-example:before {
   content: "\6e";
 }
-.icon-codefresh-fail-2:before {
+.icon-fail-2:before {
   content: "\e912";
 }
-.icon-codefresh-failed:before {
+.icon-failed:before {
   content: "\6f";
 }
-.icon-codefresh-github:before {
+.icon-github:before {
   content: "\70";
 }
-.icon-codefresh-images:before {
+.icon-images:before {
   content: "\71";
 }
-.icon-codefresh-images-2:before {
+.icon-images-2:before {
   content: "\5a";
 }
-.icon-codefresh-launch-2:before {
+.icon-launch-2:before {
   content: "\e907";
 }
-.icon-codefresh-lenght:before {
+.icon-lenght:before {
   content: "\72";
 }
-.icon-codefresh-lock-close:before {
+.icon-lock-close:before {
   content: "\73";
 }
-.icon-codefresh-lock-open:before {
+.icon-lock-open:before {
   content: "\74";
 }
-.icon-codefresh-log:before {
+.icon-log:before {
   content: "\75";
 }
-.icon-codefresh-logs-2:before {
+.icon-logs-2:before {
   content: "\e908";
 }
-.icon-codefresh-ok:before {
+.icon-ok:before {
   content: "\76";
 }
-.icon-codefresh-pause:before {
+.icon-pause:before {
   content: "\77";
 }
-.icon-codefresh-pending:before {
+.icon-pending:before {
   content: "\e909";
 }
-.icon-codefresh-pipeline-2:before {
+.icon-pipeline-2:before {
   content: "\e90a";
 }
-.icon-codefresh-plus-2:before {
+.icon-plus-2:before {
   content: "\e90b";
 }
-.icon-codefresh-projects:before {
+.icon-projects:before {
   content: "\78";
 }
-.icon-codefresh-promote:before {
+.icon-promote:before {
   content: "\79";
 }
-.icon-codefresh-promote-2:before {
+.icon-promote-2:before {
   content: "\e90c";
 }
-.icon-codefresh-pull-request:before {
+.icon-pull-request:before {
   content: "\7a";
 }
-.icon-codefresh-queue:before {
+.icon-queue:before {
   content: "\41";
 }
-.icon-codefresh-rebuild:before {
+.icon-rebuild:before {
   content: "\e90d";
 }
-.icon-codefresh-refresh:before {
+.icon-refresh:before {
   content: "\42";
 }
-.icon-codefresh-run-settings:before {
+.icon-run-settings:before {
   content: "\43";
 }
-.icon-codefresh-running:before {
+.icon-running:before {
   content: "\44";
 }
-.icon-codefresh-scan:before {
+.icon-scan:before {
   content: "\e90e";
 }
-.icon-codefresh-search:before {
+.icon-search:before {
   content: "\45";
 }
-.icon-codefresh-search-2:before {
+.icon-search-2:before {
   content: "\e90f";
 }
-.icon-codefresh-send-email:before {
+.icon-send-email:before {
   content: "\e900";
 }
-.icon-codefresh-service:before {
+.icon-service:before {
   content: "\46";
 }
-.icon-codefresh-services-2:before {
+.icon-services-2:before {
   content: "\e910";
 }
-.icon-codefresh-settings:before {
+.icon-settings:before {
   content: "\47";
 }
-.icon-codefresh-stages:before {
+.icon-stages:before {
   content: "\48";
 }
-.icon-codefresh-start:before {
+.icon-start:before {
   content: "\49";
 }
-.icon-codefresh-success-2:before {
+.icon-success-2:before {
   content: "\e911";
 }
-.icon-codefresh-table:before {
+.icon-table:before {
   content: "\4a";
 }
-.icon-codefresh-tag:before {
+.icon-tag:before {
   content: "\e913";
 }
-.icon-codefresh-terminate:before {
+.icon-terminate:before {
   content: "\4b";
 }
-.icon-codefresh-test-fail:before {
+.icon-test-fail:before {
   content: "\4c";
 }
-.icon-codefresh-test-ok:before {
+.icon-test-ok:before {
   content: "\4d";
 }
-.icon-codefresh-trash:before {
+.icon-trash:before {
   content: "\4e";
 }
-.icon-codefresh-upload-code:before {
+.icon-upload-code:before {
   content: "\4f";
 }
-.icon-codefresh-user:before {
+.icon-user:before {
   content: "\50";
 }
-.icon-codefresh-workflow:before {
+.icon-workflow:before {
   content: "\51";
 }
-.icon-codefresh-user-settings:before {
+.icon-user-settings:before {
   content: "\e934";
 }
-.icon-codefresh-account-settings:before {
+.icon-account-settings:before {
   content: "\e935";
 }
-.icon-codefresh-builds:before {
+.icon-builds:before {
   content: "\e936";
 }
-.icon-codefresh-docker:before {
+.icon-docker:before {
   content: "\e937";
 }
-.icon-codefresh-helm-charts:before {
+.icon-helm-charts:before {
   content: "\e938";
 }
-.icon-codefresh-helm:before {
+.icon-helm:before {
   content: "\e939";
 }
-.icon-codefresh-email:before {
+.icon-email:before {
   content: "\e928";
 }
-.icon-codefresh-minus:before {
+.icon-minus:before {
   content: "\e929";
 }
-.icon-codefresh-plus:before {
+.icon-plus:before {
   content: "\e92a";
 }
-.icon-codefresh-kubernetes:before {
+.icon-kubernetes:before {
   content: "\e926";
 }
-.icon-codefresh-dokcer-logs:before {
+.icon-dokcer-logs:before {
   content: "\e927";
 }
